@@ -1,0 +1,78 @@
+{
+  "evidence_class": "LOCAL_INTEGRATION_TESTED",
+  "transport": "actual loopback HTTP",
+  "initial": [
+    {
+      "status": "ok",
+      "job_id": 1,
+      "documents": 0,
+      "skipped": 0,
+      "candidates": 0,
+      "new_alerts": 0,
+      "elapsed_ms": 44.296099920757115,
+      "error_code": null,
+      "retry_after": null
+    },
+    {
+      "status": "ok",
+      "job_id": 2,
+      "documents": 0,
+      "skipped": 0,
+      "candidates": 0,
+      "new_alerts": 0,
+      "elapsed_ms": 28.53290003258735,
+      "error_code": null,
+      "retry_after": null
+    }
+  ],
+  "changed": [
+    {
+      "status": "ok",
+      "job_id": 3,
+      "documents": 1,
+      "skipped": 0,
+      "candidates": 0,
+      "new_alerts": 1,
+      "elapsed_ms": 62.29989998973906,
+      "error_code": null,
+      "retry_after": null
+    },
+    {
+      "status": "ok",
+      "job_id": 4,
+      "documents": 1,
+      "skipped": 0,
+      "candidates": 0,
+      "new_alerts": 1,
+      "elapsed_ms": 37.0573999825865,
+      "error_code": null,
+      "retry_after": null
+    }
+  ],
+  "repeated": [
+    {
+      "status": "ok",
+      "job_id": 5,
+      "documents": 0,
+      "skipped": 1,
+      "candidates": 0,
+      "new_alerts": 0,
+      "elapsed_ms": 31.765199964866042,
+      "error_code": null,
+      "retry_after": null
+    },
+    {
+      "status": "ok",
+      "job_id": 6,
+      "documents": 0,
+      "skipped": 1,
+      "candidates": 0,
+      "new_alerts": 0,
+      "elapsed_ms": 29.285200056619942,
+      "error_code": null,
+      "retry_after": null
+    }
+  ],
+  "requests": 12,
+  "github_case": "new commit containing synthetic token followed by deletion before next polling"
+}

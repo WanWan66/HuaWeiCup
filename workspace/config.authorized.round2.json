@@ -1,0 +1,12 @@
+{
+  "mode": "real",
+  "allowed_sources": [
+    {
+      "source_id": "authorized_huaweicup",
+      "source_type": "github",
+      "scope": "WanWan66/HuaWeiCup",
+      "interval_seconds": 300,
+      "timeout_seconds": 30
+    }
+  ]
+}

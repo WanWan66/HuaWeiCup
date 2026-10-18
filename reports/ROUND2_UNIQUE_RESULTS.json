@@ -1,0 +1,2794 @@
+{
+  "development": {
+    "rows": 320,
+    "unique_texts": 245,
+    "duplicate_rows": 75,
+    "before": {
+      "documents": 245,
+      "metrics": {
+        "TP": 144,
+        "FP": 98,
+        "FN": 16,
+        "Precision": 0.5950413223140496,
+        "Recall": 0.9,
+        "F1": 0.7164179104477612
+      },
+      "per_category": {
+        "api_token": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "oauth_client_secret": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "database_password": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "database_uri": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "cloud_key_pair": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 16,
+          "Precision": 1.0,
+          "Recall": 0.5,
+          "F1": 0.6666666666666666
+        },
+        "cloud_access_key": {
+          "TP": 16,
+          "FP": 16,
+          "FN": 0,
+          "Precision": 0.5,
+          "Recall": 1.0,
+          "F1": 0.6666666666666666
+        },
+        "cloud_secret_key": {
+          "TP": 0,
+          "FP": 16,
+          "FN": 0,
+          "Precision": 0.0,
+          "Recall": 0,
+          "F1": 0
+        },
+        "high_entropy": {
+          "TP": 16,
+          "FP": 64,
+          "FN": 0,
+          "Precision": 0.2,
+          "Recall": 1.0,
+          "F1": 0.33333333333333337
+        },
+        "ssh_private_key": {
+          "TP": 16,
+          "FP": 2,
+          "FN": 0,
+          "Precision": 0.8888888888888888,
+          "Recall": 1.0,
+          "F1": 0.9411764705882353
+        }
+      },
+      "informational_candidates_not_alerted": 0,
+      "mismatches": [
+        {
+          "id": "development-pair_far-0",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-0",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-marker_document-15",
+          "family": "marker_document",
+          "expected": [],
+          "predicted": [
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-0",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-0",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-quoted_marker-15",
+          "family": "quoted_marker",
+          "expected": [],
+          "predicted": [
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-asset_hash-0",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-1",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-1",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-1",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-1",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-1",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-2",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-2",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-2",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-2",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-2",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-3",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-3",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-3",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-3",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-3",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-4",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-4",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-4",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-4",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-4",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-5",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-5",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-5",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-5",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-5",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-6",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-6",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-6",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-6",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-6",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-7",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-7",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-7",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-7",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-7",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-8",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-8",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-8",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-8",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-8",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-9",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-9",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-9",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-9",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-9",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-10",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-10",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-10",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-10",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-10",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-11",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-11",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-11",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-11",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-11",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-12",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-12",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-12",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-12",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-12",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-13",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-13",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-13",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-13",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-13",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-14",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-14",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-14",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-14",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-14",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-pair_far-15",
+          "family": "pair_far",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "development-private_outer-15",
+          "family": "private_outer",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "development-build_id-15",
+          "family": "build_id",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-encoded_blob-15",
+          "family": "encoded_blob",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "development-asset_hash-15",
+          "family": "asset_hash",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "documents": 245,
+      "metrics": {
+        "TP": 160,
+        "FP": 0,
+        "FN": 0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0
+      },
+      "per_category": {
+        "api_token": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "oauth_client_secret": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "database_password": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "database_uri": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "cloud_key_pair": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "cloud_access_key": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "ssh_private_key": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "high_entropy": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        }
+      },
+      "informational_candidates_not_alerted": 50,
+      "mismatches": []
+    }
+  },
+  "holdout": {
+    "rows": 320,
+    "unique_texts": 245,
+    "duplicate_rows": 75,
+    "before": {
+      "documents": 245,
+      "metrics": {
+        "TP": 80,
+        "FP": 210,
+        "FN": 96,
+        "Precision": 0.27586206896551724,
+        "Recall": 0.45454545454545453,
+        "F1": 0.34334763948497854
+      },
+      "per_category": {
+        "api_token": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 16,
+          "Precision": 1.0,
+          "Recall": 0.5,
+          "F1": 0.6666666666666666
+        },
+        "high_entropy": {
+          "TP": 16,
+          "FP": 160,
+          "FN": 0,
+          "Precision": 0.09090909090909091,
+          "Recall": 1.0,
+          "F1": 0.16666666666666669
+        },
+        "oauth_client_secret": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 16,
+          "Precision": 1.0,
+          "Recall": 0.5,
+          "F1": 0.6666666666666666
+        },
+        "database_password": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 16,
+          "Precision": 0,
+          "Recall": 0.0,
+          "F1": 0
+        },
+        "database_uri": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "cloud_access_key": {
+          "TP": 0,
+          "FP": 32,
+          "FN": 0,
+          "Precision": 0.0,
+          "Recall": 0,
+          "F1": 0
+        },
+        "cloud_key_pair": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 32,
+          "Precision": 0,
+          "Recall": 0.0,
+          "F1": 0
+        },
+        "cloud_secret_key": {
+          "TP": 0,
+          "FP": 16,
+          "FN": 16,
+          "Precision": 0.0,
+          "Recall": 0.0,
+          "F1": 0
+        },
+        "ssh_private_key": {
+          "TP": 16,
+          "FP": 2,
+          "FN": 0,
+          "Precision": 0.8888888888888888,
+          "Recall": 1.0,
+          "F1": 0.9411764705882353
+        }
+      },
+      "informational_candidates_not_alerted": 0,
+      "mismatches": [
+        {
+          "id": "holdout-api_json-0",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-0",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-0",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-0",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-0",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-0",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-0",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-pem_guide-15",
+          "family": "pem_guide",
+          "expected": [],
+          "predicted": [
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-0",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-0",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-0",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-truncated_private-15",
+          "family": "truncated_private",
+          "expected": [],
+          "predicted": [
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-0",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-1",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-1",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-1",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-1",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-1",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-1",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-1",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-1",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-1",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-1",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-1",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-2",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-2",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-2",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-2",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-2",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-2",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-2",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-2",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-2",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-2",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-2",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-3",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-3",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-3",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-3",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-3",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-3",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-3",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-3",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-3",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-3",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-3",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-4",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-4",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-4",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-4",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-4",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-4",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-4",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-4",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-4",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-4",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-4",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-5",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-5",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-5",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-5",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-5",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-5",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-5",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-5",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-5",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-5",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-5",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-6",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-6",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-6",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-6",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-6",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-6",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-6",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-6",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-6",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-6",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-6",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-7",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-7",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-7",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-7",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-7",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-7",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-7",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-7",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-7",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-7",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-7",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-8",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-8",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-8",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-8",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-8",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-8",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-8",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-8",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-8",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-8",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-8",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-9",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-9",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-9",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-9",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-9",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-9",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-9",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-9",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-9",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-9",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-9",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-10",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-10",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-10",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-10",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-10",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-10",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-10",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-10",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-10",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-10",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-10",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-11",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-11",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-11",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-11",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-11",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-11",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-11",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-11",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-11",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-11",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-11",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-12",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-12",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-12",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-12",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-12",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-12",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-12",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-12",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-12",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-12",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-12",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-13",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-13",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-13",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-13",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-13",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-13",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-13",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-13",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-13",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-13",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-13",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-14",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-14",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-14",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-14",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-14",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-14",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-14",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-14",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-14",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-14",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-14",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-api_json-15",
+          "family": "api_json",
+          "expected": [
+            "api_token"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-oauth_multiline-15",
+          "family": "oauth_multiline",
+          "expected": [
+            "oauth_client_secret"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-db_quoted-15",
+          "family": "db_quoted",
+          "expected": [
+            "database_password"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-pair_section-15",
+          "family": "pair_section",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "cloud_secret_key"
+          ]
+        },
+        {
+          "id": "holdout-pair_json-15",
+          "family": "pair_json",
+          "expected": [
+            "cloud_key_pair"
+          ],
+          "predicted": [
+            "cloud_access_key",
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-standalone_secret-15",
+          "family": "standalone_secret",
+          "expected": [
+            "cloud_secret_key"
+          ],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-private_pem-15",
+          "family": "private_pem",
+          "expected": [
+            "ssh_private_key"
+          ],
+          "predicted": [
+            "high_entropy",
+            "ssh_private_key"
+          ]
+        },
+        {
+          "id": "holdout-release_identifier-15",
+          "family": "release_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-opaque_identifier-15",
+          "family": "opaque_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-base64_document-15",
+          "family": "base64_document",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        },
+        {
+          "id": "holdout-cdn_identifier-15",
+          "family": "cdn_identifier",
+          "expected": [],
+          "predicted": [
+            "high_entropy"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "documents": 245,
+      "metrics": {
+        "TP": 176,
+        "FP": 0,
+        "FN": 0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0
+      },
+      "per_category": {
+        "api_token": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "oauth_client_secret": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "database_password": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "database_uri": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "cloud_key_pair": {
+          "TP": 32,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "cloud_secret_key": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "ssh_private_key": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        },
+        "high_entropy": {
+          "TP": 16,
+          "FP": 0,
+          "FN": 0,
+          "Precision": 1.0,
+          "Recall": 1.0,
+          "F1": 1.0
+        }
+      },
+      "informational_candidates_not_alerted": 66,
+      "mismatches": []
+    }
+  }
+}

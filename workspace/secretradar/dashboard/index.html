@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SecretRadar</title>
+<style>:root{color-scheme:dark}body{font:15px system-ui,sans-serif;background:#101826;color:#e4edf8;max-width:1400px;margin:auto;padding:32px}h1{font-size:36px;margin-bottom:8px}h2{font-size:21px;margin-top:36px;color:#9dddda}.badge{display:inline-block;background:#164c48;padding:9px 15px;border-radius:6px}p{color:#bccbdd;line-height:1.7}.scroll{overflow:auto;border:1px solid #304155;border-radius:8px}table{border-collapse:collapse;width:100%;white-space:nowrap}td,th{padding:11px;text-align:left;border-bottom:1px solid #2a394c;font-size:13px}th{color:#8fbdce;background:#172538}.metrics{padding:20px;border-left:4px solid #64d8bb;background:#19283a}a{color:#85d9df}</style>
+<header><h1>SecretRadar</h1><p>云凭据泄露检测 · 授权源审查原型</p><strong class="badge">{{MODE}}</strong><p>所有结果均为规则命中或疑似泄露，未经在线有效性验证。演示数据仅为人为构造的不可用测试字符串。页面为请求时快照，刷新可见新扫描。</p></header>
+<section><h2>首页指标</h2><div class="metrics">{{METRICS}}</div></section>
+<section><h2>数据源状态</h2>{{SOURCES}}</section><section><h2>扫描任务与耗时（ms）</h2>{{JOBS}}</section>
+<section><h2>按凭据类型分组</h2>{{TYPES}}</section><section><h2>脱敏告警</h2>{{ALERTS}}</section>
+<section><h2>时间链路与时延（ms）</h2><p>unavailable 表示没有可靠时间。alerted_at 是告警生成时刻；persisted_at 为 SQLite 返回提交成功后的确认时刻。创建时间与受控可访问时间分列；未发送外部通知。</p>{{TIMES}}</section>
+<footer><p>AI 辅助开发材料 · 需参赛学生独立审查、验证，并确认赛事允许的辅助范围。</p></footer></html>

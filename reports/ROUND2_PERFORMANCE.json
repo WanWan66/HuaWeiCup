@@ -1,0 +1,350 @@
+[
+  {
+    "files": 100,
+    "input_bytes": 31390,
+    "expected_alerts": 10,
+    "repeats": [
+      {
+        "wall_seconds": 0.17231519997585565,
+        "cpu_seconds": 0.15625,
+        "cpu_one_core_equivalent_percent": 90.67685266412559,
+        "files_per_second": 580.3318570504038,
+        "bytes_per_second": 182166.16992812176,
+        "rss_bytes": 29782016,
+        "process_lifetime_peak_rss_bytes": 29782016,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 100,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 10,
+          "elapsed_ms": 158.3195999264717,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 100,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 143.86019995436072,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 94208,
+        "db_growth_bytes": 40960
+      },
+      {
+        "wall_seconds": 0.18050430004950613,
+        "cpu_seconds": 0.1875,
+        "cpu_one_core_equivalent_percent": 103.87564171522516,
+        "files_per_second": 554.0034224812009,
+        "bytes_per_second": 173901.67431684898,
+        "rss_bytes": 30056448,
+        "process_lifetime_peak_rss_bytes": 30056448,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 100,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 10,
+          "elapsed_ms": 168.11109997797757,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 100,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 147.3831000039354,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 94208,
+        "db_growth_bytes": 40960
+      },
+      {
+        "wall_seconds": 0.2360184999415651,
+        "cpu_seconds": 0.203125,
+        "cpu_one_core_equivalent_percent": 86.06316879833187,
+        "files_per_second": 423.69560023794156,
+        "bytes_per_second": 132998.04891468986,
+        "rss_bytes": 30113792,
+        "process_lifetime_peak_rss_bytes": 30134272,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 100,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 10,
+          "elapsed_ms": 224.58779998123646,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 100,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 188.18250007461756,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 94208,
+        "db_growth_bytes": 40960
+      }
+    ],
+    "median_wall_seconds": 0.18050430004950613,
+    "median_files_per_second": 554.0034224812009,
+    "median_cpu_one_core_equivalent_percent": 90.67685266412559,
+    "median_rss_bytes": 30056448,
+    "median_db_growth_bytes": 40960,
+    "scope": "real local filesystem controlled_directory + detector + SQLite; not GitHub or local Git collector throughput",
+    "incremental_note": "reads files and computes HMAC then skips detection; filesystem cache not cleared"
+  },
+  {
+    "files": 1000,
+    "input_bytes": 314890,
+    "expected_alerts": 100,
+    "repeats": [
+      {
+        "wall_seconds": 1.9363020999589935,
+        "cpu_seconds": 1.765625,
+        "cpu_one_core_equivalent_percent": 91.1854095514017,
+        "files_per_second": 516.4483372822751,
+        "bytes_per_second": 162624.41692681564,
+        "rss_bytes": 32403456,
+        "process_lifetime_peak_rss_bytes": 33120256,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 1000,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 100,
+          "elapsed_ms": 1921.2884999578819,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 1000,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 1352.7772000525147,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 425984,
+        "db_growth_bytes": 372736
+      },
+      {
+        "wall_seconds": 1.5490806999150664,
+        "cpu_seconds": 1.46875,
+        "cpu_one_core_equivalent_percent": 94.8142985759573,
+        "files_per_second": 645.544160517156,
+        "bytes_per_second": 203275.40070524727,
+        "rss_bytes": 33058816,
+        "process_lifetime_peak_rss_bytes": 33910784,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 1000,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 100,
+          "elapsed_ms": 1535.1876999484375,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 1000,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 1322.2402000101283,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 425984,
+        "db_growth_bytes": 372736
+      },
+      {
+        "wall_seconds": 1.8862456999486312,
+        "cpu_seconds": 1.625,
+        "cpu_one_core_equivalent_percent": 86.14996445289466,
+        "files_per_second": 530.1536274024287,
+        "bytes_per_second": 166940.0757327508,
+        "rss_bytes": 33034240,
+        "process_lifetime_peak_rss_bytes": 33910784,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 1000,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 100,
+          "elapsed_ms": 1870.2263999730349,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 1000,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 1286.6667000344023,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 425984,
+        "db_growth_bytes": 372736
+      }
+    ],
+    "median_wall_seconds": 1.8862456999486312,
+    "median_files_per_second": 530.1536274024287,
+    "median_cpu_one_core_equivalent_percent": 91.1854095514017,
+    "median_rss_bytes": 33034240,
+    "median_db_growth_bytes": 372736,
+    "scope": "real local filesystem controlled_directory + detector + SQLite; not GitHub or local Git collector throughput",
+    "incremental_note": "reads files and computes HMAC then skips detection; filesystem cache not cleared"
+  },
+  {
+    "files": 10000,
+    "input_bytes": 3158890,
+    "expected_alerts": 1000,
+    "repeats": [
+      {
+        "wall_seconds": 14.613190700067207,
+        "cpu_seconds": 14.0,
+        "cpu_one_core_equivalent_percent": 95.80385480041407,
+        "files_per_second": 684.3132485743862,
+        "bytes_per_second": 216167.0277789143,
+        "rss_bytes": 37343232,
+        "process_lifetime_peak_rss_bytes": 61210624,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 10000,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 1000,
+          "elapsed_ms": 14595.750899985433,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 10000,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 12859.048300073482,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 3751936,
+        "db_growth_bytes": 3698688
+      },
+      {
+        "wall_seconds": 15.302817799965851,
+        "cpu_seconds": 14.984375,
+        "cpu_one_core_equivalent_percent": 97.91905775701936,
+        "files_per_second": 653.4744209019018,
+        "bytes_per_second": 206425.38134428088,
+        "rss_bytes": 43520000,
+        "process_lifetime_peak_rss_bytes": 61452288,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 10000,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 1000,
+          "elapsed_ms": 15284.766099997796,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 10000,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 14388.498699991032,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 3751936,
+        "db_growth_bytes": 3698688
+      },
+      {
+        "wall_seconds": 14.646730700042099,
+        "cpu_seconds": 14.390625,
+        "cpu_one_core_equivalent_percent": 98.25144801739707,
+        "files_per_second": 682.7462185790893,
+        "bytes_per_second": 215672.02024072994,
+        "rss_bytes": 44613632,
+        "process_lifetime_peak_rss_bytes": 62042112,
+        "scan": {
+          "status": "ok",
+          "job_id": 1,
+          "documents": 10000,
+          "skipped": 0,
+          "candidates": 0,
+          "new_alerts": 1000,
+          "elapsed_ms": 14627.651500049978,
+          "error_code": null,
+          "retry_after": null
+        },
+        "incremental": {
+          "status": "ok",
+          "job_id": 2,
+          "documents": 0,
+          "skipped": 10000,
+          "candidates": 0,
+          "new_alerts": 0,
+          "elapsed_ms": 14092.686800053343,
+          "error_code": null,
+          "retry_after": null
+        },
+        "db_initial_bytes": 53248,
+        "db_final_bytes": 3751936,
+        "db_growth_bytes": 3698688
+      }
+    ],
+    "median_wall_seconds": 14.646730700042099,
+    "median_files_per_second": 682.7462185790893,
+    "median_cpu_one_core_equivalent_percent": 97.91905775701936,
+    "median_rss_bytes": 43520000,
+    "median_db_growth_bytes": 3698688,
+    "scope": "real local filesystem controlled_directory + detector + SQLite; not GitHub or local Git collector throughput",
+    "incremental_note": "reads files and computes HMAC then skips detection; filesystem cache not cleared"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "rule_version": "sr2-bfda64f25b6ae0e0",
+  "rule_file_sha256": "bfda64f25b6ae0e0404e30e63b92641299d3bf15f1af9f13efd7c90942c083ca",
+  "frozen_at": "2026-10-17T15:19:15.516126+00:00",
+  "development_results_sha256": "1116a2d6478d2f86fd1d3b64a687170d6e6165bc8639c9879242115a7b0c0986",
+  "holdout_result_existed": false,
+  "protocol": "No detector rule changes after first holdout evaluation; retain all mismatches."
+}

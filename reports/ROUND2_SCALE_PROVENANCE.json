@@ -1,0 +1,11 @@
+{
+  "git_commit": "d10ffdc401d12ee09e507b9ec44598c5ee460c74",
+  "rule_version": "sr2-bfda64f25b6ae0e0",
+  "started_at": "2026-10-17T15:28:17.211490+00:00",
+  "kind": "scale",
+  "module_sha256": {
+    "secretradar/pipeline/scan.py": "a8cb1e461c01d7a2d22b0a185a617ef3790ce365cf073ab62a80d7836cdf2185",
+    "secretradar/pipeline/watch.py": "063575481655fd0dd054723d4b7e112b6c702983a791e0237a194be8bb0721f7",
+    "secretradar/detectors/rules.py": "bfda64f25b6ae0e0404e30e63b92641299d3bf15f1af9f13efd7c90942c083ca"
+  }
+}

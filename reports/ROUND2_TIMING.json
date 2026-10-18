@@ -1,0 +1,578 @@
+[
+  {
+    "evidence_class": "LOCAL_CONTROLLED",
+    "configured_interval_seconds": 0.25,
+    "schedule": "fixed delay after previous child scan completes; includes worker startup overhead",
+    "rounds": 10,
+    "polls": {
+      "time_feed": 10
+    },
+    "automatic_alerts": 10,
+    "graceful_stop": true,
+    "unfinished_jobs": 0,
+    "restart": {
+      "started_at": "2026-10-17T15:30:45.255989+00:00",
+      "finished_at": "2026-10-17T15:30:47.166256+00:00",
+      "polls": {
+        "time_feed": 3
+      },
+      "records": [
+        {
+          "source_id": "time_feed",
+          "poll": 1,
+          "status": "ok",
+          "job_id": 12,
+          "new_alerts": 0,
+          "error_code": null,
+          "next_wait_seconds": 0.1
+        },
+        {
+          "source_id": "time_feed",
+          "poll": 2,
+          "status": "ok",
+          "job_id": 13,
+          "new_alerts": 0,
+          "error_code": null,
+          "next_wait_seconds": 0.1
+        },
+        {
+          "source_id": "time_feed",
+          "poll": 3,
+          "status": "ok",
+          "job_id": 14,
+          "new_alerts": 0,
+          "error_code": null,
+          "next_wait_seconds": 0.1
+        }
+      ],
+      "stopped": false,
+      "event_log_enabled": true
+    },
+    "accessible_to_first_seen": {
+      "n": 10,
+      "mean_ms": 623.0117,
+      "median_ms": 605.2270000000001,
+      "p95_ms_nearest_rank": 834.507
+    },
+    "accessible_to_persisted": {
+      "n": 10,
+      "mean_ms": 638.3024,
+      "median_ms": 618.672,
+      "p95_ms_nearest_rank": 850.5
+    },
+    "events": 10,
+    "records": [
+      {
+        "id": 1,
+        "created_at": "2026-10-17T15:30:36.192779+00:00",
+        "accessible_at": "2026-10-17T15:30:36.192843+00:00",
+        "first_seen_at": "2026-10-17T15:30:36.908883+00:00",
+        "scan_completed_at": "2026-10-17T15:30:36.911644+00:00",
+        "alerted_at": "2026-10-17T15:30:36.911664+00:00",
+        "persisted_at": "2026-10-17T15:30:36.921068+00:00",
+        "first_job_id": 2,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 716.04,
+        "accessible_to_persisted_ms": 728.225
+      },
+      {
+        "id": 2,
+        "created_at": "2026-10-17T15:30:37.134940+00:00",
+        "accessible_at": "2026-10-17T15:30:37.134994+00:00",
+        "first_seen_at": "2026-10-17T15:30:37.710645+00:00",
+        "scan_completed_at": "2026-10-17T15:30:37.714270+00:00",
+        "alerted_at": "2026-10-17T15:30:37.714284+00:00",
+        "persisted_at": "2026-10-17T15:30:37.724897+00:00",
+        "first_job_id": 3,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 575.6510000000001,
+        "accessible_to_persisted_ms": 589.9029999999999
+      },
+      {
+        "id": 3,
+        "created_at": "2026-10-17T15:30:37.789714+00:00",
+        "accessible_at": "2026-10-17T15:30:37.789800+00:00",
+        "first_seen_at": "2026-10-17T15:30:38.538130+00:00",
+        "scan_completed_at": "2026-10-17T15:30:38.540590+00:00",
+        "alerted_at": "2026-10-17T15:30:38.540602+00:00",
+        "persisted_at": "2026-10-17T15:30:38.552013+00:00",
+        "first_job_id": 4,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 748.33,
+        "accessible_to_persisted_ms": 762.2130000000001
+      },
+      {
+        "id": 4,
+        "created_at": "2026-10-17T15:30:38.739956+00:00",
+        "accessible_at": "2026-10-17T15:30:38.740002+00:00",
+        "first_seen_at": "2026-10-17T15:30:39.281922+00:00",
+        "scan_completed_at": "2026-10-17T15:30:39.285443+00:00",
+        "alerted_at": "2026-10-17T15:30:39.285455+00:00",
+        "persisted_at": "2026-10-17T15:30:39.293839+00:00",
+        "first_job_id": 5,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 541.92,
+        "accessible_to_persisted_ms": 553.837
+      },
+      {
+        "id": 5,
+        "created_at": "2026-10-17T15:30:39.519639+00:00",
+        "accessible_at": "2026-10-17T15:30:39.519693+00:00",
+        "first_seen_at": "2026-10-17T15:30:40.075731+00:00",
+        "scan_completed_at": "2026-10-17T15:30:40.080257+00:00",
+        "alerted_at": "2026-10-17T15:30:40.080273+00:00",
+        "persisted_at": "2026-10-17T15:30:40.089957+00:00",
+        "first_job_id": 6,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 556.038,
+        "accessible_to_persisted_ms": 570.264
+      },
+      {
+        "id": 6,
+        "created_at": "2026-10-17T15:30:40.297691+00:00",
+        "accessible_at": "2026-10-17T15:30:40.297752+00:00",
+        "first_seen_at": "2026-10-17T15:30:40.793130+00:00",
+        "scan_completed_at": "2026-10-17T15:30:40.798195+00:00",
+        "alerted_at": "2026-10-17T15:30:40.798210+00:00",
+        "persisted_at": "2026-10-17T15:30:40.822180+00:00",
+        "first_job_id": 7,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 495.378,
+        "accessible_to_persisted_ms": 524.428
+      },
+      {
+        "id": 7,
+        "created_at": "2026-10-17T15:30:40.979370+00:00",
+        "accessible_at": "2026-10-17T15:30:40.979428+00:00",
+        "first_seen_at": "2026-10-17T15:30:41.813935+00:00",
+        "scan_completed_at": "2026-10-17T15:30:41.819261+00:00",
+        "alerted_at": "2026-10-17T15:30:41.819275+00:00",
+        "persisted_at": "2026-10-17T15:30:41.829928+00:00",
+        "first_job_id": 8,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 834.507,
+        "accessible_to_persisted_ms": 850.5
+      },
+      {
+        "id": 8,
+        "created_at": "2026-10-17T15:30:42.008617+00:00",
+        "accessible_at": "2026-10-17T15:30:42.008708+00:00",
+        "first_seen_at": "2026-10-17T15:30:42.674317+00:00",
+        "scan_completed_at": "2026-10-17T15:30:42.680556+00:00",
+        "alerted_at": "2026-10-17T15:30:42.680585+00:00",
+        "persisted_at": "2026-10-17T15:30:42.689598+00:00",
+        "first_job_id": 9,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 665.609,
+        "accessible_to_persisted_ms": 680.89
+      },
+      {
+        "id": 9,
+        "created_at": "2026-10-17T15:30:42.805253+00:00",
+        "accessible_at": "2026-10-17T15:30:42.805303+00:00",
+        "first_seen_at": "2026-10-17T15:30:43.440106+00:00",
+        "scan_completed_at": "2026-10-17T15:30:43.443935+00:00",
+        "alerted_at": "2026-10-17T15:30:43.443947+00:00",
+        "persisted_at": "2026-10-17T15:30:43.452744+00:00",
+        "first_job_id": 10,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 634.803,
+        "accessible_to_persisted_ms": 647.441
+      },
+      {
+        "id": 10,
+        "created_at": "2026-10-17T15:30:43.683452+00:00",
+        "accessible_at": "2026-10-17T15:30:43.683507+00:00",
+        "first_seen_at": "2026-10-17T15:30:44.145348+00:00",
+        "scan_completed_at": "2026-10-17T15:30:44.150176+00:00",
+        "alerted_at": "2026-10-17T15:30:44.150189+00:00",
+        "persisted_at": "2026-10-17T15:30:44.158830+00:00",
+        "first_job_id": 11,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 461.841,
+        "accessible_to_persisted_ms": 475.323
+      }
+    ],
+    "watch_records": [
+      {
+        "source_id": "time_feed",
+        "poll": 1,
+        "status": "ok",
+        "job_id": 1,
+        "new_alerts": 0,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 2,
+        "status": "ok",
+        "job_id": 2,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 3,
+        "status": "ok",
+        "job_id": 3,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 4,
+        "status": "ok",
+        "job_id": 4,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 5,
+        "status": "ok",
+        "job_id": 5,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 6,
+        "status": "ok",
+        "job_id": 6,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 7,
+        "status": "ok",
+        "job_id": 7,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 8,
+        "status": "ok",
+        "job_id": 8,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 9,
+        "status": "ok",
+        "job_id": 9,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 10,
+        "status": "ok",
+        "job_id": 10,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 0.25
+      }
+    ],
+    "remote_authorized_timing": null
+  },
+  {
+    "evidence_class": "LOCAL_CONTROLLED",
+    "configured_interval_seconds": 1.0,
+    "schedule": "fixed delay after previous child scan completes; includes worker startup overhead",
+    "rounds": 10,
+    "polls": {
+      "time_feed": 10
+    },
+    "automatic_alerts": 10,
+    "graceful_stop": true,
+    "unfinished_jobs": 0,
+    "restart": {
+      "started_at": "2026-10-17T15:31:05.087094+00:00",
+      "finished_at": "2026-10-17T15:31:06.927468+00:00",
+      "polls": {
+        "time_feed": 3
+      },
+      "records": [
+        {
+          "source_id": "time_feed",
+          "poll": 1,
+          "status": "ok",
+          "job_id": 12,
+          "new_alerts": 0,
+          "error_code": null,
+          "next_wait_seconds": 0.1
+        },
+        {
+          "source_id": "time_feed",
+          "poll": 2,
+          "status": "ok",
+          "job_id": 13,
+          "new_alerts": 0,
+          "error_code": null,
+          "next_wait_seconds": 0.1
+        },
+        {
+          "source_id": "time_feed",
+          "poll": 3,
+          "status": "ok",
+          "job_id": 14,
+          "new_alerts": 0,
+          "error_code": null,
+          "next_wait_seconds": 0.1
+        }
+      ],
+      "stopped": false,
+      "event_log_enabled": true
+    },
+    "accessible_to_first_seen": {
+      "n": 10,
+      "mean_ms": 1114.4037,
+      "median_ms": 1132.71,
+      "p95_ms_nearest_rank": 1373.952
+    },
+    "accessible_to_persisted": {
+      "n": 10,
+      "mean_ms": 1129.9772,
+      "median_ms": 1152.565,
+      "p95_ms_nearest_rank": 1387.4979999999998
+    },
+    "events": 10,
+    "records": [
+      {
+        "id": 1,
+        "created_at": "2026-10-17T15:30:49.205152+00:00",
+        "accessible_at": "2026-10-17T15:30:49.205195+00:00",
+        "first_seen_at": "2026-10-17T15:30:50.182598+00:00",
+        "scan_completed_at": "2026-10-17T15:30:50.186601+00:00",
+        "alerted_at": "2026-10-17T15:30:50.186625+00:00",
+        "persisted_at": "2026-10-17T15:30:50.198657+00:00",
+        "first_job_id": 2,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 977.403,
+        "accessible_to_persisted_ms": 993.462
+      },
+      {
+        "id": 2,
+        "created_at": "2026-10-17T15:30:50.495422+00:00",
+        "accessible_at": "2026-10-17T15:30:50.495503+00:00",
+        "first_seen_at": "2026-10-17T15:30:51.748408+00:00",
+        "scan_completed_at": "2026-10-17T15:30:51.750616+00:00",
+        "alerted_at": "2026-10-17T15:30:51.750628+00:00",
+        "persisted_at": "2026-10-17T15:30:51.758462+00:00",
+        "first_job_id": 3,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1252.905,
+        "accessible_to_persisted_ms": 1262.9589999999998
+      },
+      {
+        "id": 3,
+        "created_at": "2026-10-17T15:30:51.963922+00:00",
+        "accessible_at": "2026-10-17T15:30:51.963963+00:00",
+        "first_seen_at": "2026-10-17T15:30:53.259129+00:00",
+        "scan_completed_at": "2026-10-17T15:30:53.261693+00:00",
+        "alerted_at": "2026-10-17T15:30:53.261706+00:00",
+        "persisted_at": "2026-10-17T15:30:53.270811+00:00",
+        "first_job_id": 4,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1295.166,
+        "accessible_to_persisted_ms": 1306.848
+      },
+      {
+        "id": 4,
+        "created_at": "2026-10-17T15:30:53.606224+00:00",
+        "accessible_at": "2026-10-17T15:30:53.606337+00:00",
+        "first_seen_at": "2026-10-17T15:30:54.777854+00:00",
+        "scan_completed_at": "2026-10-17T15:30:54.782185+00:00",
+        "alerted_at": "2026-10-17T15:30:54.782200+00:00",
+        "persisted_at": "2026-10-17T15:30:54.791735+00:00",
+        "first_job_id": 5,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1171.5169999999998,
+        "accessible_to_persisted_ms": 1185.398
+      },
+      {
+        "id": 5,
+        "created_at": "2026-10-17T15:30:55.169846+00:00",
+        "accessible_at": "2026-10-17T15:30:55.169902+00:00",
+        "first_seen_at": "2026-10-17T15:30:56.259907+00:00",
+        "scan_completed_at": "2026-10-17T15:30:56.263286+00:00",
+        "alerted_at": "2026-10-17T15:30:56.263298+00:00",
+        "persisted_at": "2026-10-17T15:30:56.289634+00:00",
+        "first_job_id": 6,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1090.0049999999999,
+        "accessible_to_persisted_ms": 1119.732
+      },
+      {
+        "id": 6,
+        "created_at": "2026-10-17T15:30:56.872597+00:00",
+        "accessible_at": "2026-10-17T15:30:56.872678+00:00",
+        "first_seen_at": "2026-10-17T15:30:57.740106+00:00",
+        "scan_completed_at": "2026-10-17T15:30:57.745919+00:00",
+        "alerted_at": "2026-10-17T15:30:57.745941+00:00",
+        "persisted_at": "2026-10-17T15:30:57.754097+00:00",
+        "first_job_id": 7,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 867.428,
+        "accessible_to_persisted_ms": 881.419
+      },
+      {
+        "id": 7,
+        "created_at": "2026-10-17T15:30:58.499314+00:00",
+        "accessible_at": "2026-10-17T15:30:58.499359+00:00",
+        "first_seen_at": "2026-10-17T15:30:59.313366+00:00",
+        "scan_completed_at": "2026-10-17T15:30:59.319866+00:00",
+        "alerted_at": "2026-10-17T15:30:59.319881+00:00",
+        "persisted_at": "2026-10-17T15:30:59.330411+00:00",
+        "first_job_id": 8,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 814.0070000000001,
+        "accessible_to_persisted_ms": 831.052
+      },
+      {
+        "id": 8,
+        "created_at": "2026-10-17T15:30:59.856761+00:00",
+        "accessible_at": "2026-10-17T15:30:59.856812+00:00",
+        "first_seen_at": "2026-10-17T15:31:00.950715+00:00",
+        "scan_completed_at": "2026-10-17T15:31:00.957301+00:00",
+        "alerted_at": "2026-10-17T15:31:00.957316+00:00",
+        "persisted_at": "2026-10-17T15:31:00.968335+00:00",
+        "first_job_id": 9,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1093.903,
+        "accessible_to_persisted_ms": 1111.5230000000001
+      },
+      {
+        "id": 9,
+        "created_at": "2026-10-17T15:31:01.082318+00:00",
+        "accessible_at": "2026-10-17T15:31:01.082366+00:00",
+        "first_seen_at": "2026-10-17T15:31:02.456318+00:00",
+        "scan_completed_at": "2026-10-17T15:31:02.461471+00:00",
+        "alerted_at": "2026-10-17T15:31:02.461488+00:00",
+        "persisted_at": "2026-10-17T15:31:02.469864+00:00",
+        "first_job_id": 10,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1373.952,
+        "accessible_to_persisted_ms": 1387.4979999999998
+      },
+      {
+        "id": 10,
+        "created_at": "2026-10-17T15:31:02.710393+00:00",
+        "accessible_at": "2026-10-17T15:31:02.710495+00:00",
+        "first_seen_at": "2026-10-17T15:31:03.918246+00:00",
+        "scan_completed_at": "2026-10-17T15:31:03.922931+00:00",
+        "alerted_at": "2026-10-17T15:31:03.922943+00:00",
+        "persisted_at": "2026-10-17T15:31:03.930376+00:00",
+        "first_job_id": 11,
+        "external_delivered_at": null,
+        "accessible_to_first_seen_ms": 1207.751,
+        "accessible_to_persisted_ms": 1219.881
+      }
+    ],
+    "watch_records": [
+      {
+        "source_id": "time_feed",
+        "poll": 1,
+        "status": "ok",
+        "job_id": 1,
+        "new_alerts": 0,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 2,
+        "status": "ok",
+        "job_id": 2,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 3,
+        "status": "ok",
+        "job_id": 3,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 4,
+        "status": "ok",
+        "job_id": 4,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 5,
+        "status": "ok",
+        "job_id": 5,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 6,
+        "status": "ok",
+        "job_id": 6,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 7,
+        "status": "ok",
+        "job_id": 7,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 8,
+        "status": "ok",
+        "job_id": 8,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 9,
+        "status": "ok",
+        "job_id": 9,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      },
+      {
+        "source_id": "time_feed",
+        "poll": 10,
+        "status": "ok",
+        "job_id": 10,
+        "new_alerts": 1,
+        "error_code": null,
+        "next_wait_seconds": 1.0
+      }
+    ],
+    "remote_authorized_timing": null
+  }
+]

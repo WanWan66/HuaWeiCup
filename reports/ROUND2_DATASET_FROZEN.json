@@ -1,0 +1,5789 @@
+{
+  "version": "sr-r2-corpus-v1",
+  "seeds": {
+    "development": 410271,
+    "holdout": 902813
+  },
+  "variants_per_template": 16,
+  "label_method": "manually specified synthetic category sets; never detector generated",
+  "split_method": "disjoint presentation templates and PRNG seeds; synthetic grammar still shared",
+  "samples": [
+    {
+      "id": "development-api_assignment-0",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "10c98613513d92a7a12dd84484a2f6c4b6a3c8df646642caf64bf46058824c2f",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-0",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "add8c00e09503a2fee996ad20236440d77168c72e1fa166c29f0b610bf8b8b69",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-0",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "be158b2a110ddd856ebf420ccc943fa0d7ede1fb20f252134724b9c710f6e995",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-0",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "059b543962be84c370a2e414bd0069d85194ed4d2450da27e5e2a0ccfb41a697",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-0",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "6240fa157c8825f51e5739e95481dc830f63ba5467f76c080895c4bf90581708",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-0",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "e4d83f48453db9f33052613a3839bf793629fc6b5e96e5f6f7df4822d29f01c0",
+      "bytes": 289
+    },
+    {
+      "id": "development-standalone_ak-0",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "daebb13d500515bc68c16f74ccdf1a189568d9ffcf17d784b0ed9b2b45827b9b",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-0",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "0928f4ac236bf043f5b995223893affd8f03a5e9dd45f8a1d5b12f7cc103b5b4",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-0",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "9c885ecab041ba00afcd36d155afebfe902f22837b7157bfc89340e51dfb3f08",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-0",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "71a67dd9a691b0e6627ddb345c60ce48f601312ac95aecc0697cb6aa5a969996",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-0",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-0",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "2e0f8e0c123c3f569c45339ad42fdde2859aba0375d04b0fefb12e2e212c7db7",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-0",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ec7e9ebffdcc7cbb99be6e77024d64614a7bac50d8b8055aed954ce456de2b34",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-0",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "a4dba777c5d63dec6b37a7a682327c6350baa598d77a2029444552712b0493ea",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-0",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "5c4d278b991d758e80fd47125ba8aec366209f98d9c6de66d520ee00e3eb47e0",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-0",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-0",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-0",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-0",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-0",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "76ae8c072ab1568efe38baa8b0235127ebe86b0f6952623d186dfe0fba9991b1",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-1",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "46175a5525200b1a2fe31907ab0e13303c17ff93c87120513abc24417e635669",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-1",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "9282c4cc389aa374b77a934bd8720772463d38548218da2eccc31c10a4aad711",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-1",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "2880126fd4c3e2bfd9cbd9c182ff91486bb64f0935f41054b7dce412d4cb6137",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-1",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "38ac3ffae4efaa9e235a357337beff8be2b3d457ce4863cf6fb995ed166174b0",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-1",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "28c863887fdf5a050e9d489b2ab1e7cdda4f79976eaf0ea514e4b5672ae6cdfc",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-1",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "d6c6942229b21debe0c324fa8a189e6d69a153e3e666f3040c88bf8c17c469f8",
+      "bytes": 315
+    },
+    {
+      "id": "development-standalone_ak-1",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "8d9e8c113176da4467f1bd08c62266dc9f839d71da1c515790ecb195a7d64103",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-1",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "e35f253aa57a514284b7985fadfd85c7e58388d7a2bd0ffdb70a40bff2dc5a55",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-1",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "cc90465877ad2518c53c369a5e3b3f63d1ae7e3481cec910ee0c2c02e8dedbb4",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-1",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "58c3106a1ca514aa3844060a621e3be16a774c9058348aa3b4b0175eefc224fd",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-1",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-1",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "7c3a30df7967e046692b11a41dfc23e680fc0131b1a91f2954d5190f2d3062c4",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-1",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "885818a9b6e0e9b6c059f15b6105aabd2d78d2d064a488e73e5e6c424be24fa9",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-1",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "554f0da7d3095158e5592a1df517d2273f0dd0f2de0f8a4a38f1db0e6695d068",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-1",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "4b387ae9f4a3068ba11fe80043f0acd5d783652ec6220f05333bff8ddfee58be",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-1",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-1",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-1",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-1",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-1",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "63b45f1b1821edcf2b62f5b0ec789e2d3aee143bb246c8f647c92e469875ce1a",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-2",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "bad15d332c7ba0fe31781582b39ab1eeec8535ed9648b064f649ef9fad11660c",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-2",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "1a8b69ade72fd73137d364d9118dcf697ae3bb00ad8251a5b817cfa90e970ada",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-2",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "44ff02556c6aa47e4cc2f9f39935229de1eb26e3ff85215f5366dec26e8da644",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-2",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "98c68734875fd24261311fe5ba80866b282515c9c046a85f3d9e7c5b259805c5",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-2",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "db16abecdb3eba5f0fa8e5d339492ba141fc204613d7fa17dd11577f5475f82e",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-2",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "bb4b69cd3b2c7b96d6e9d568fbb086f66dd13ce43b34f9733a74650bbb074157",
+      "bytes": 341
+    },
+    {
+      "id": "development-standalone_ak-2",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "4043b81d7a85babf5ae105e901cf21cacd67f5e8103fd8357cedca5dd89c18d1",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-2",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "3c76b36f0ea1524549aaea760ec66a1c90b958ff6b8bae6e10ec4d5d26fe20fd",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-2",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "6f64e8724c4fb7d9225b88c86fc773a7709af1757492ce8dcef4bf4441c635e9",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-2",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "1fe8ebec0d0c61ce20bf8b91eb454cb417359161e14934ca04b9266365c4c143",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-2",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-2",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "a69470483174b3b9f256570fb0f529eb652393dfe49f472e2863abad15303234",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-2",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "91a27e02498979bdf049ebf5acab9898a114044ff8f9ac44aaf9fa2470676d7e",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-2",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "e03f6a719eac5599ebf568e97ae54d517e996a9f55b2f479c7139315c5475909",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-2",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "fad500c7a76a811fc51be2f6834941b73be479df77595c7f879cb188d5fff20a",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-2",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-2",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-2",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-2",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-2",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "80a67b87ac73aa9a8163b376f1b724bf1f0214a4be81b4b5449c0929248fa149",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-3",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "530670301f9a5b5b311e8f010e66d8e8f9559401c37c71eb6c9ecdc1e81deca4",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-3",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "962a0e00ee86740f22e2a3475fefa0e916fa0839759970a1b278f0b6aa786c4a",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-3",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "229081862db9689f165eda68ceaa4f02b6b608d30dc57f6ab1ddf791953098f6",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-3",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "73cd323e9329b93c862155efd00a8e6e19c0b93e846db748ceeb2dfe4980d670",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-3",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "8cb66b201008b813be44aec9bb082eabbaf7771455421d7359380dd06da6d397",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-3",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "d757a7465d534033c408e0018a81021f71becb3c0c2a0214a32e5e913a100d3d",
+      "bytes": 367
+    },
+    {
+      "id": "development-standalone_ak-3",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "544aa8db06cbd2248eeb478acbb4a3509e6d4430cc139511a20d1d224c16771c",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-3",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "bee083155d4f88d57f64ba507013419119dcd504bfa12ceeadbb8ab385b10bbd",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-3",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "c2e017791ba7779adc91b792975ff29ddb8078348e084e863259a2c958047514",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-3",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "332811ece3b8e55d6784dffa0cb7aad1a9963ca66130e6c83328c09ec25d9211",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-3",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-3",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "8c890bd20f9e271b6b9ecd1159f7cb0ac08502028bc421da2c97bba52f6a4153",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-3",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "33068808a4ebcf3da83ea0a5896475664d31ffbfeb16e6398cec5f4f46750c86",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-3",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "e0529795148c3a49eb792528d2a4f36b275ecb318b625770374d35978f77e605",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-3",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "1f543909b407ecf81244898bceb200789194141612db4cd4cb24706f251d745d",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-3",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-3",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-3",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-3",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-3",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "c9427e5bca339488497c1c503e5af350ba49995d33f0d87231912dee26e5e957",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-4",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "c9585b25758ef2747764051762a1022147d713fe126bf403e618695affe12bf8",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-4",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "a5d9e153eab38d391184a3623d71f7b2dd625bb24a52c46cde7ac747dcc22e14",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-4",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "53b24fb29ad7a176db07ca5e7531fb2b32c5de21a686ab8d4be845179bff5a3e",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-4",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "fef3f3f00435a1e4760c9842d07f99aee2869628ec257ccaa2a37328172a6145",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-4",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "33ef7a467e57b2e1c7e65ff03a2c0f21738fbfa545e810465f0fa667daf0193d",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-4",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "de9f40ea5ea473937b0d9439e45d321a4414f38359dca72ea9b7e91cb863c81f",
+      "bytes": 394
+    },
+    {
+      "id": "development-standalone_ak-4",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "d8d828c8d112199c4a623a668e8f253a034a0200e5c5cb3c43d4c5cb3a35089d",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-4",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "140bebb6cb481c8d4c18faa5565bfd10f88480054c0a0a1357a54ebc30e0ffff",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-4",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "7102d1794ee0b57cc68b2d7b0a26468d398f5854e79f9f6e059c62cfce3fbfc4",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-4",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "ef53c93abba60580cfc350434270e5fc9d022727757bac00fd700ce55ffc41b7",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-4",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-4",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "975d0e8283bd56d35dc890339fcc481855bb8474ea8ebcc01ce8d5cf5f4f3154",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-4",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "fe6b0e460613ed2f966a19b4a4bb4cc551d14ee2751d47afdc4d6503a95cf3a0",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-4",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "07826f8c7d16625224a0cf98cfdacc62119cec5047d4ba3f1a7cda997f756ce3",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-4",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "7b1171beca461024f460388789865d9a98fa1ee3733984cb621c92497886bad4",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-4",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-4",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-4",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-4",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-4",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "046656e742bd1e43d2cb6d1096e926788e49020365e366629a106f77f3ed0dff",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-5",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "14b4bd951523bb1c3d792347337d66f6373db5d576ab4612c53cad792835a07f",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-5",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "b7c0748e8bb90f0b78cbab3027d7ad1a1cbb9ccce05a5705b3ba895972434038",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-5",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "4abffb52a6d78001676173af78739ff4c11216c7c70e7c54d693b634417bc43d",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-5",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "c3a5d4db92029d779dc14ee5d238815f3a6a727476e560b257553a53213eb2ae",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-5",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "0cc691d1be0e0e6d330ceadd2143544cb0bdbbc77611ff70a11c83ba04f7f771",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-5",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "52d7f5bad7a84d999acb18a9765af9047abab7d6b55b736497e9ef70f2904a85",
+      "bytes": 421
+    },
+    {
+      "id": "development-standalone_ak-5",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "d179c115ebd4716fee8a6887aa862fc2df4815a1d71f63657088575fbb3d6e76",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-5",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "277394d81c6794064f2eb307d2fb71fe27dee807864febe840b1f078beae58bc",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-5",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "650eed7bb7833cb66b326820fb19d80ea580c2b81302e7903e3d11d63deceed5",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-5",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "c3edde8c42fa9fa6e31b8694fdb82bfacd40ace3fecd30bb89fc444f1d2c8596",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-5",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-5",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "3c1fe78c383dae6165ca0ff86105be73d42c5e4d9dc19792af51b48853229529",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-5",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40f52e25166ec85729600b2e3d15cb1c1367f1291ad8dc97a360241895a87244",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-5",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "bfc62bba6af3630d9f0c19bd226136ab7198c72cbfec69ad7100de01484aa067",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-5",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6964409ada00905ee97c96f3843292c5d76ed506a6743d55a1d6bcb3b7aae35c",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-5",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-5",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-5",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-5",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-5",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6a94308361053f9534ed4094039604dd8ede85cd71ec556ee66f962cde92bd9f",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-6",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "d5b0cad567291415348f27a97e66e717c33d1cbcf5cb0186e75d0d8a667d8912",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-6",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "07a56a6dc5c17b259133f4539c69b44db859b2290b7a9864ee3f4883e0000a6c",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-6",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "bb081568935367ea920d647bfd351ca4eab9e517a7652c34573d32fc8963beb4",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-6",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "54ae21f3266664c3ae3d84c95a450a089f3d1b6046dfeb3f2be3d1030db2278a",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-6",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "627151ce9a8e0fabdee6cec8345a83c3d26eb324188d5ab8b9161b2c26c8656e",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-6",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "da1c6b97715f5c4f0e1e26e743a75b8558b6c20dd145567c050ee31c42354ef8",
+      "bytes": 289
+    },
+    {
+      "id": "development-standalone_ak-6",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "302d1a9242d18adae094cd96a15020ac12bf3a0362f977714ec56c36b2e0dd9e",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-6",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "a0b26d3b74b841a58cdcce7fbb86687ce185b439b44e997e8a79d8e2214253ea",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-6",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "b396c4df2558b31500b13a3d2fc53675850e92ef1dbdf6c104cf4682c7c95896",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-6",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "ee8bae334c896a6a8a3f68e09f963e73b76c17f58b4764cd88c45f09f8d29318",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-6",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-6",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "b1731e5f13a541db2e3d1f7e4aaa6403ec3e67706dcbb8aee210f04b05eeeff0",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-6",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "5f0a923eab22dddaac3b2591eae391b9e5d2114892bf2b076372bd96fb7d6b6c",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-6",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ae168dd05d371a3870b60df2a851c53da3db9fd2389dc334652880f569418746",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-6",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "f6519640aaaa102c1614d5bf9473651b41bdffbf188e0ba020570646e1745c61",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-6",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-6",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-6",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-6",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-6",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "b8f37f21930d0a389024c12883a899b4124b54314c83ed2c9283c2b54e0b0e20",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-7",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "62411cf2092abd5872a790e3acc35c31c6004f1bd537fa06c841c07ff12ced69",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-7",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "085d43dbff851e3103eb7da08748b82bf0a72d52e97471d95d5ef6c47482c25b",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-7",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "1842f325409ba4793b59b952b6dd694a4ebac313d93eb7c36c58380e4fd11adb",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-7",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "7c3c17a6e789b09bcb23756f6b9320bb4e7a6e9ebbde4a685ca15ed41525c9f3",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-7",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "8790c6f4aa31f4a55ef6f590a7a82069ae3e0bc6f281cf411142e25240e14a46",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-7",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "7f67b9d25211e29db0cf82a1b7e0a5a0b2a8def0f5771cf9bc12a43b0bd73367",
+      "bytes": 315
+    },
+    {
+      "id": "development-standalone_ak-7",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "0c440d3ef09ecaeb880f64fa2300df37a20f31b3572b133c299239ee3826620c",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-7",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "d1b2ae9123c9b585514977c717012eae4e802cc823fb5413d2df86a90ee607e6",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-7",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "df6d994a2c25b9fe655caa2e826d23f675fda3eb0bbc1bf757e20235f691baaa",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-7",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "8f52f2ae17bde47683f26e7c3a115578760893998bf3b7446d1305ffbca7c00c",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-7",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-7",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "e74c18ed54bfbb5ccf103513c74a29d0c72e85d917883ada6a5187aae5189da0",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-7",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "3e7a4934777bd5930f3cc3bc803e14b3327ef4afeab3578373695af78fa0949c",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-7",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "39164955f58d6ccbb77bcb83f647294cfe57a5d8cde502309b70e10e63a97248",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-7",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "73032070b1f2b2f1d704647ce56f26a6a84924d22d4ff31ab562d811ab7e72ee",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-7",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-7",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-7",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-7",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-7",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6747e44bb442aef82c0a4580402888c5a74adbaed43b3dba71ad732be9301e9b",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-8",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "844f1d3cc209982c87d9e6e3a9454b2287d2f8c378ef6fd47954c9ddc07ab594",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-8",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "8493d306995194efd3ada521661d505c8c650df4dccb30c32b441d6ae9d6dbcd",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-8",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "a2d096362fc9254133f6e514d6afe1000687a08f007b103d6aea85dbe233b090",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-8",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "6e4dad436088187e61a383d6dd46c2e081c7823e3c90e7686e621dbf3c65526f",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-8",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "7e654c2650b4bf6e5bc52b00fe8514a4518299a245aa369d6fb40d4c3131934b",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-8",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "c4424fd65036766e285e69915dd28837e6e22bfb793e2fb9e7dadbd0ba5e7bc8",
+      "bytes": 341
+    },
+    {
+      "id": "development-standalone_ak-8",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "71e0a7be52233bc98ef52fcdfd086a29a145327b1ebe924aaa5556744fd858e2",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-8",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "9baec0a78078ad84828fb53af31611aadb8be77db303e8c2cbb0f10d829e8a2d",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-8",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "82210834688db06fe8d0e36ddf820f47a61d03ebbf89db6a3d277966306d63de",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-8",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "dc177766af2f90a791d1e3c25ea42d29ffbfb7b9c55c6cda26614bd2ccb802fe",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-8",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-8",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "d21d68209a62f2697136d0e467c9ff2457bdb226c7e3b6cddad7d6feed7b341c",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-8",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "eefb706d1052ad6eb219ad8a3a6ca97f66b6bfe3b09082b27eb27d80e12a398e",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-8",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "fdd893bbbf5cd92555b79685d48575eb30cfcfe4dbdbd42c6cf99e7953b11a63",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-8",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "641c939d2fe1120f39382cc66e496a036550fc02c9fdd3d698cf5e70cd484d8d",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-8",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-8",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-8",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-8",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-8",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6104e450fddf19d30cc32ee1b28bdba956e60106602563f59d015b6b929afdc7",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-9",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "fc5b66e493d4e4d9a1bdd4818b08e4d5deacda1dc6a1f4da11807d7bbefbc56c",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-9",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "74f747acf066747d2d8d7672cf25d3c15e3ee7813c7301a9f5fd22483f0ea9e6",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-9",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "e5828fc365f16a743e8796d2a464f550d4f50a7b90913afe3a58971caa3d12d8",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-9",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "34af472bc18cda9a6f9b6d047760cec0c77223eca862d1f000e0dba31ec0ea28",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-9",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "f0a5d37fede1c468791289d27c74c599fa9dc7dff56019c684f1b3501bc27766",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-9",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "14a382904a359062eb7612339a5615aa043ad6b0f80f4c1b79a018ee66cf2aea",
+      "bytes": 367
+    },
+    {
+      "id": "development-standalone_ak-9",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "c75660f88d652113e5e6f48f99e294e2af21b75bab9230aacd827e5aadc05a2e",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-9",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "d131c9a8d879d8db81d0f5773e9b3827fe0b8da581dfa143cb9a806173b700fc",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-9",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "3db247362276155c4dd146fa5f2ede05084ccd82e5d07aa702e36db95e8c9766",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-9",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "47c0cf3bfa19c7755c2835107e9419ad7fed0673a90a11bb0061798e37a96b7d",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-9",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-9",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "08f96ba2431193d1ec7a4c04f53f673039e9e3dcc57081d5da57ad9ec3d8b82a",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-9",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cddfe626eea536f3e8a4bf21d896c3d082ec54da7349f8ebac8680f37e2f1bad",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-9",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "abe321989ec4854a75800121b0239c57fe26c0734a14669c98f192f939a7a8e0",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-9",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "28f3a21c0b2c631df6f5f593854a04a4200a75d47b0099c8dcb2f61bf10917c9",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-9",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-9",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-9",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-9",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-9",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ad236d8803420e1749b10b209a863cb997ef40e63b711a80604dc9257606e798",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-10",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "ba99769bcf52f552e4487f5ba0a5e7a58abca885c17cac908e48c4568f4a11cb",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-10",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "a64a53a44694aaae78b7a8dbd14546247f068db8bb3af0925a287e9c7ce3953f",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-10",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "2979baca91181fd27832be5a53962c8b3808f83e6cc9e94ded8a74a25fbf69ba",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-10",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "7cc352b6a2b99ec30b813dc6584b47862eec1b26105293472254385e4b26e3d0",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-10",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "c4769fad9aa26c8070ab274927fdfab626ff5bc57c2da8b4c87ae4fc82088c8c",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-10",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "c104d081a67895e8dd00aa004b341328494e441b6290df4745b4eb406340a027",
+      "bytes": 394
+    },
+    {
+      "id": "development-standalone_ak-10",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "503252e9ce3ee53bdc081743e72d20bfa2b91ff2df8a9a9f49d42e4c19d679c1",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-10",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "cbb297c2c494d159e67fe49d5f0b193a02ff752eb6095d5ad2a0635ca2d5a5ee",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-10",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "5a267c34a1bc178f331bcdbaa359a68ec3c373f37ffcbdd3abf80938a623e5f5",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-10",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "cd308a3cda29d9a7a5647097983b7e3b2b057ef3da877e343b3f25704236cc30",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-10",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-10",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "8505ca95e030d549f5517c1e1a01d98458bdab3a0db2bd7975a2af1394f5dc76",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-10",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "c54545e1af8854e361dcb72ad01d76e71815214319fa38091dc842bc05020184",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-10",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "0b7f1cbe35604bb07ec88051a5da7f5ff01eb1a3e79aa0cb25229522ad464d23",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-10",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "0fa1bcd956bec3727a50c089612fa1272fc2b4ef8e2898922809b019ff3c1d87",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-10",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-10",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-10",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-10",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-10",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "5176ac87d1890035c4f5f99f47632b31a27746b983c7930cc0731c7e950eb615",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-11",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "4cb50b13172778f93d512fe00798218a980bf27e5d5c80fd08e45e43a62366e7",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-11",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "a600dcc28d8e6af5e519c9c6f02ba1ac4b6acad6c79f6efd5b556b8d4f28cfc5",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-11",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "f357765660034be404becf76927744e2282cf06f2dd2e4894a10ac3243e73e9b",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-11",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "86f13b0f0deb480d66d0a9b2b9d09f1ac949e0f9928ca7292a009e20f91cb523",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-11",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "3d9913a1f83fb454944e534d5c047d512ae7560a86b86db943455c924851acd1",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-11",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "47a732f9c7a5493486e9168d696e0a2e10328671ef7a2596c2abf5783bd1bfad",
+      "bytes": 421
+    },
+    {
+      "id": "development-standalone_ak-11",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "85ee4bd20a78ea69582929c7ddce840bbd1b41a3412efce2b65386345051a844",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-11",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "727cebdb6b50cb744e6c69205dc05e7e7eb2ab8e3c9885a3712776491d191713",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-11",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "751d5af6598caf5df4ab6a88c376579f609de0adade34d0216f9723438337909",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-11",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "1f4d2cd773bf5786ad4a712326f2995980a9a08d51875b2e2b941090d9da4c61",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-11",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-11",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "8552dd41fe5dd0b98ffa078aac77c02a16a38893129b725d5e0b3efd813be4b8",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-11",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6867221f3f40019f6328326d618fb335274e259a5e7891dc3d8272e715c60997",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-11",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "858a965ba6b2f40eb1cae0847dc181b401bee085dacbf4255d9a6cba126072c3",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-11",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "67816555906e64ba025d506e10b569a754a8fe92d0431207b4b62aa977f8f18d",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-11",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-11",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-11",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-11",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-11",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "d5c5488f97896580f549d45e01a7c758835c3467bfccbe607e693ccbd95fbccd",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-12",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "2c227b07de01f9f8e8fb09e3bb0bc2d5b711cf3a5914051d2b429974644237ef",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-12",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "8ba71e923bb22d2b22c8c66fd2b048bdc9b78bfcd5e582c2461d570771f09285",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-12",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "f73063c91841edd8a00895ff73cbc22deafa1ce0490fc930bd5061f6fe869a62",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-12",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "6d2ac0f7e73cb358b280176a47a3986adbc6a6c334d1b48bcc8977cd75d688ba",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-12",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "dc2b7729695e048d5f64452be6c2779b715d5c2848fcc02702ae630d5a4673af",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-12",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "f1f9826505d86aab5e43a5f53c810f022bc9935a48b1d77df0b3849eae64f697",
+      "bytes": 289
+    },
+    {
+      "id": "development-standalone_ak-12",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "f4e84c011539693517c2225dcd2c9a52e4a3705cdd9054f4eb162ecd3b70f31e",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-12",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "f7997325af70bb636f655be1534043352e33342fe6c1c7e018ca3ce7950a21ad",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-12",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "b773729127575d03eed66d7aec083cbd25d72b2e93156a956593a0ad27d68dcb",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-12",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "f01cf43ea1542cf021143f98d912fbd3a056321756c3a1fa329d0ace4e2ccb7f",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-12",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-12",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "8521b1c3b00cf9d104c45b85795f0f49c14c0b912023dab9e587d750cf651983",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-12",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6bd19bd1b17ea10604c99ffe0cc790954fbf1763f216621861aafadc776055fa",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-12",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "b2a86d42af833157ba1ae2e7935f14a2e0b05c5218829ace39b9c91665d16ef8",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-12",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "e6b5360b1e010370f218c2b774afd545972e08e401bd08285c72f8aa16fd8e35",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-12",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-12",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-12",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-12",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-12",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "facc2de92833cf3cceec95fa8c7fdacef910431d0453df20139b280d94275aec",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-13",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "a4afb972d7eb2997c33a4d9edd312edf8a5020efa7be5d091aab8ce1f3104855",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-13",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "ee1353d593a98e8bf9e7fd087e1bccc702527bac603516aa5bf6aaf650046838",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-13",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "1dcf0088f4499999cb7b596e971d2fd101fa211101b3e1f6906a242e952dc95c",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-13",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "eaae2ac03571de5888a8696dc509bb9b09b98b5aa9b047b304786ca5f7ea9825",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-13",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "705cf5a11a55dbc7405f98ead4d776233307fbc2ae5071f7b3785bb1a735cafd",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-13",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "a63b65ecc160590ebfa71d2529a1965815753e6051df16cb8b889fdc2740429d",
+      "bytes": 315
+    },
+    {
+      "id": "development-standalone_ak-13",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "088961d9ac46ebe45376c9138bba27098f9a2a44c0344c7e911caf1e6fe0eb24",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-13",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "3f00b360bcee74bf7c898efa5b98277d1c08436b0c6dd3a022b65d317f3bdeaf",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-13",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "c13412d32547a2a7d805e4acde147b6f49ce6996e6a82167d114670a302e295b",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-13",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "f1412f9def89b14a1e947db9e2f69748634e5c133685e52553fff7a410bd2473",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-13",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-13",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ed90b8ad1d789579216529ea3a0d5f1a6eab27736788eb322761e78ff2328069",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-13",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6572f39e55311ce8c177a3e26fc852622d4eda223b01b6e67c653f87c71ad2d1",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-13",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "0f48026a4f44911986d8b77a6646e655382af317fae98441560ea925f4802923",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-13",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ae4db5e179cf8d7cbc4ba946054a83f697541200a79fdae73ddf112427f91140",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-13",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-13",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-13",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-13",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-13",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "5054016a75aacb69ce4a5246f33e229216f2126c679c1f97290f4a91bb0e780c",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-14",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "70bc4ea82431e48a169a792eab4e9fd5f4b5216e0b20bedf79fc7208ec94124a",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-14",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "c535f2d2b728c8d8853224f112140385452014db23d67f6a8a57c5b7e0c6a9e7",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-14",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "49d73cf67bef8feeedc280681301adbb074428ab5ac3c8061e717148b9a5f3a3",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-14",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "b0c20ff3597be585a5fc2c32881eac49d5ecb9fd503d1dcdfe74f176b2904184",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-14",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "4bcd735d04e6c5971a113670079af771911f621b577ccba5920a32a20a5103b0",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-14",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "63811f8fcb1e2df0f7fbcded3c7ff8ec302ef26add5a59d5412775247ddd610b",
+      "bytes": 341
+    },
+    {
+      "id": "development-standalone_ak-14",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "9830bf67fe9de653674efae94d51435130115d4a7cee3d82f57229518ed4e0cc",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-14",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "68962a19496c454450f986eea157faf71b1788b6725228476444f05cdf0db45f",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-14",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "59d2cb2aace3b8439721a53b71e09b4216449dffacb6ede00fdd6c4a5508247a",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-14",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "246b684d62a379af7a331e6272abe25b451f61a944fdde378f2df53434117ff8",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-14",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-14",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "e66864606724f856c10e74df689c5c493ad624611e358a4069e60d6be5b59990",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-14",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ab3de5973971f70908fc1c2ee50d2db10b779f7b6b17bbb815382729fe37241f",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-14",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "286583091460ef871ebdb829b0a204f734a4647239d83dfe8b75a4598d3dfabd",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-14",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6faef7036e259838185cde8433b072562fd75788aeb48e4ff41a4ed6bc6f5752",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-14",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-14",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-14",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-14",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-14",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "7d6f9db3f59c7049de4c29121c160b4380395ec5fc0ba2dd17ab84e3cf431b7a",
+      "bytes": 61
+    },
+    {
+      "id": "development-api_assignment-15",
+      "family": "api_assignment",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "99ce47269f6b451502e1e86494711c6a5ac089b65fc5e2165b16e8d28774eb09",
+      "bytes": 53
+    },
+    {
+      "id": "development-oauth_assignment-15",
+      "family": "oauth_assignment",
+      "split": "development",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "0fad6549e4f43814178077d210b035c145335316db42d117c7dccb3895cc9be7",
+      "bytes": 55
+    },
+    {
+      "id": "development-db_assignment-15",
+      "family": "db_assignment",
+      "split": "development",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "eee10c290157654b194268fa28b1e2755155d3640d4b333ef1f416213a34dce5",
+      "bytes": 51
+    },
+    {
+      "id": "development-postgres_uri-15",
+      "family": "postgres_uri",
+      "split": "development",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "dedb6683296d1900698b30ce036abba4311efb42b25745da4cf8e8dd3f482ae4",
+      "bytes": 72
+    },
+    {
+      "id": "development-pair_near-15",
+      "family": "pair_near",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "45ba508a58aedcfbc9a17ba6c5685ab5318a95075c17e8a6e17c769fb39581cc",
+      "bytes": 101
+    },
+    {
+      "id": "development-pair_far-15",
+      "family": "pair_far",
+      "split": "development",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "46ab799f66e3054df3edc668cc8e066010cceb01fb571640a6f4a13c90e56856",
+      "bytes": 367
+    },
+    {
+      "id": "development-standalone_ak-15",
+      "family": "standalone_ak",
+      "split": "development",
+      "expected": [
+        "cloud_access_key"
+      ],
+      "text_sha256": "ca6c6c1fad0a6eae7f4529ee1d8696840254815653eac8610a0b5c2d12388633",
+      "bytes": 38
+    },
+    {
+      "id": "development-private_outer-15",
+      "family": "private_outer",
+      "split": "development",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "63da1c3763a6c2cf4689dc7131b76a2d69bfdb2b12559f4193f58679d1129ccf",
+      "bytes": 220
+    },
+    {
+      "id": "development-entropy_context-15",
+      "family": "entropy_context",
+      "split": "development",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "d53c6c70be8010052deacb98af4152e4e255d953f035665c318a46ddd6223299",
+      "bytes": 59
+    },
+    {
+      "id": "development-repeat_token-15",
+      "family": "repeat_token",
+      "split": "development",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "5e887bffc5a00ba3e4f33976bb7f0182973bb2c61c0c65201bf318b89294a259",
+      "bytes": 99
+    },
+    {
+      "id": "development-marker_document-15",
+      "family": "marker_document",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "40d1d364b2a948fcb8dde3f8dd16f892ac6004fcfe74266b29a1fe54761fd79b",
+      "bytes": 61
+    },
+    {
+      "id": "development-build_id-15",
+      "family": "build_id",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "973e5ddd907baa4c9658f3b0baf757b68ec10b6d2df61aebcfa9cd10c062b7bf",
+      "bytes": 53
+    },
+    {
+      "id": "development-commit_hash-15",
+      "family": "commit_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "d0b1bb5e90674c991129ba29ecd59e8a431fa4278be61ecf11c51d5c9e9bad61",
+      "bytes": 76
+    },
+    {
+      "id": "development-uuid-15",
+      "family": "uuid",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "6c62e81311a185dd3ccecfa236a0438b4e41232fd7f61e440d6410c1fa516628",
+      "bytes": 47
+    },
+    {
+      "id": "development-encoded_blob-15",
+      "family": "encoded_blob",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "44b561b6009366b5c514996faba1274cc1f1d4a2d1ebfc402b9697daecaf7d78",
+      "bytes": 115
+    },
+    {
+      "id": "development-placeholder-15",
+      "family": "placeholder",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ac80c566f9943f4d2ac2f3f1cffc0c07154034dca7092deeecda56e8f7ee4c27",
+      "bytes": 43
+    },
+    {
+      "id": "development-normal_prose-15",
+      "family": "normal_prose",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "35a72f866b7877a88d4c09f37729d6bc78e1bf9292587f30e45adea871db5d77",
+      "bytes": 56
+    },
+    {
+      "id": "development-docs_example-15",
+      "family": "docs_example",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "cd4d5e5ae3a1aa64ab1fe2c986d8343b8e3c68057c928eff513c1bef17ef0baf",
+      "bytes": 59
+    },
+    {
+      "id": "development-quoted_marker-15",
+      "family": "quoted_marker",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "ff5c7361b028810dd808603d5dd0ec0b0a11cadce5901f6d005162686accf524",
+      "bytes": 40
+    },
+    {
+      "id": "development-asset_hash-15",
+      "family": "asset_hash",
+      "split": "development",
+      "expected": [],
+      "text_sha256": "47b117f0236448aa72826accdb680186957ee9cccffdc0064635ebbb98eda4f9",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-api_json-0",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "088cdeed545de59a914bc32ecfdaafc1e33df9002d53adb1e0cce14c9a55724b",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-0",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "efe001ebaa5de4c0a1a9784f8a243c8d4a8ec99fda9c2831b146d2b5ccd6d7a7",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-0",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "c01391122170c1ad7f4dc9ddbca39caa1df2b6ac1bd9d7b97ba9869efe0e3a78",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-0",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "a229b943ed0cfb3924bd40a25d3fd1bf49b3c4b09465ebc68af0d4ed97e65c7f",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-0",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "a1fcc892b3a56802df9d6e9d70aa25c6fc47c833e99040a9bd14d37147fa4cf7",
+      "bytes": 308
+    },
+    {
+      "id": "holdout-pair_json-0",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "ebd07e4715b8fcae43bffeca6e24793875994d432cf2b841704f625e4ffc888d",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-0",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "6581693b39698c6d689ed73d637f3b317b2e70ada9ad293e0847c93f5e8a5bc8",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-0",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "b14da18bd7e56028b837a7fbeb96a75b1eb76eb1044cf9140bf806590e09cb08",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-0",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "1ba1e978d70f6f79567326bc8da99815a35eadd0cae54e69d3a035f2dbafaa97",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-0",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "ce800591e5d37b7e605ffd2ed2e4bfc500ee46a44cc163d440815caaa8d1b00e",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-0",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-0",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "87ea72d8bd798a9acad0240112874e950495062629ee70051800ebd8b71eb38d",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-0",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "6448a84381408af5e649ded2962dc372701e032c802a1fa3fdac6f60b2fb679d",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-0",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "1e5b669b0efa0f52569155d79a219d2d2a99db322528b362fd5f9c961a20580e",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-0",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "2d3ff86a1174bec7bc3b23c87c2c77857ca205be4eff9bfd59021bb4b5279252",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-0",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-0",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-0",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-0",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-0",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "16fee9e56db11e27b7d39162b4391f8112e404e795553583bd55bcd240bab198",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-1",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "d055dd4a73004c2716c8d0f75bce6a1957b202c496894871a2acaf389b97bd98",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-1",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "70718d629377f26f24468faecb7a06752d75c574a8798e117ceb102f33170a59",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-1",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "9216f135a47bb427c0a851bd6d46e0049d977202a708a7db693c5d32f5afad9e",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-1",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "55ff9092ad4fbbd9e3f285520e5b5f0b5384852d93b52ab2b5864a8957d65d8f",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-1",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "2ee5bca04bfc9157eebfc0b09066ac3c537f6e5e1cdaa2708768eb9b0aaf54fb",
+      "bytes": 334
+    },
+    {
+      "id": "holdout-pair_json-1",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "2d920f2328268222cbd42359fafcb2de3ddeb5300d6b71795c92d406c5d60d21",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-1",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "40206d88ad3df891ddcb7229de26f764d331f67f22e049bf2635afc4376091dc",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-1",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "0648b19fc8d5ec2efe0ab825761cf8d7f4b49b5a0af2850c600f9ca81719a5ba",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-1",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "efaa6792bd0e6fd845ca5dae7cf8e08236968892fbe370df51d8fc8ee191eee4",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-1",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "54aa0d9d067a7c10d429ae25ae31736218a5bad1923026daa294eb52526a8011",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-1",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-1",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "34a234f8deddd68f27221b263a6e41c1ecc4cfb864c169faee7fd22a4969ba8e",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-1",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "e7174a8a90f6b1c85810cf35751b5c1665e5c04845180be718dfd64640f03e02",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-1",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "33dcb091ea5d9eb412db5817f7a38f3423c4583c131efc3a05c8d70d81d8d7b0",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-1",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "c71a3b3e5751fd92998ca10ab9c841b8efa2acd4669ca0bf4c3771a68ed67b54",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-1",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-1",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-1",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-1",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-1",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "df9d7a8720cfedaba773aa96b1ed5a657da81bcb8098d75bf71f9dff5b2788f9",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-2",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "ae9697f346852176d073388e1dcc7f6f68e1a36608d3d54b18d125a1cc0ab2cd",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-2",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "3d104c2e0986d9ec9923f7cc84b54a4496632ba4c36714c99d289b8e9b2bdbed",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-2",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "86ff7630abb9b323added9d1ffafcc0f0cebf4a7b9c3035ee664e31a580cb6e4",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-2",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "933ce81d1b0ac90ca7199ba2e34de5faf8b4b9e63d8acbf39b5b252e944cd040",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-2",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "a683f0f8b6128328ad3e0472474ddf020385ce5a7de27da562916ac29ee15e73",
+      "bytes": 360
+    },
+    {
+      "id": "holdout-pair_json-2",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "64042378309d15cf9ccea3b9fa70a3d732ee18daa5c6e5e15c4dc2a766b9152f",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-2",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "5afde4ffb5bf59577ff54b7d0f3e44d5aaa8d9f2f3a237be2b5c6dbcdc95ca96",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-2",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "30520b0a281b42e47c11f64a2a22a716d4ca8de414f318939ad6d6e3861a33a3",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-2",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "9156d01c05512ac77ed9b9973dfd21ee4275f383a93bbe8e6b6a1d3032c3835d",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-2",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "dff64a29067e7fd99f96a30e6fd25b47560048e854aed64d13a6ff09668b4f1f",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-2",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-2",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "91fb94628a229d4e33933b0ecffc177e8d9745e1dc3659c42ea3e3169eb22a3f",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-2",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "30d7292a1440e9fb607117b7da9ca8bc43609e67f414c2576d8dbb1351a1c7e8",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-2",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "bd315522b8fd95911cf9eda8564b30dd847d7545b4e722ab56a2196d62636a8f",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-2",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "2bcd8c05d2dc9a093727a58399086c830443922d2699e8b27854a0b4a67d70dc",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-2",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-2",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-2",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-2",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-2",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "44c3eba86fc450a9c8d2ef896c4cbef88e28b2a44f28a58e99a6100906e082f7",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-3",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "221d99c1d199c9dfefc2469d68c56d93e3a1d858dbb8e954f31d711eb744bd3a",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-3",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "63567b3f61e313cbb9b404a5463235d6ec6310fd1c2edd4c3a7863992526be44",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-3",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "8c812f0d0a47f2e18698e0c7135cc7b887c9e211d951fb17072c375fa8060820",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-3",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "d2147623229a16f0e89da39781143254f70d9a459e449d1b385ab55d6a5550d6",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-3",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "107097a5a7ce65343caf04ebb38d9cece2dc287a3d56c779aab61eb790284d7f",
+      "bytes": 386
+    },
+    {
+      "id": "holdout-pair_json-3",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "342a582f7a411266eb4a1c88b3cc55572eb830536bad5c9bb490631e2cdd23c5",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-3",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "38898ca7479b784ae0885a6f32404cf573e3651beaaf7de55dce7b8c3f882402",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-3",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "6a71234afd6b3432ec327ccb5026c53ab88b22eac493d8f967ce1a84d5a851ac",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-3",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "fdd17b3c78d4c8f276dffc076d616b428d7e9e9746034a5b93aa35eb0f3affbc",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-3",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "3acd7b3b3cf53f1458c178125ecf9978f0a1cbe521af5ba1b23f0eaa7b8cb972",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-3",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-3",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "7fac3fcf660f5b73ca14a9d0ef7b4218258c6e77d3d4c703099a8f920a3c996f",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-3",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "947dde94fa32a156f11ef99060c096abd91b8d967b2f773be40d0a7662b92450",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-3",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "222f6b7f07c4965433d98889b96f2cad29afd8dae774a8b036decb687dea6eec",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-3",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "e6beb0b0bd45c937e686167ce2b4829a85db34aac15bb3942c9442548a7cb19a",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-3",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-3",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-3",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-3",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-3",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "175ec443a8b64c190fd85f8f3ee525811c4963e3ae86b7ff3ed4bc2f928412f4",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-4",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "4ce4b5e5f40f3ea2a171432932a339a40170e57f9761e9e17fb6dd514fcb30d5",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-4",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "731d5e4ca46d4afcf4473ee0917cf97005b450c38c3aa223598a885bcc74a2e7",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-4",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "7a5a18680e5c63cc6a7af5b8d6c950edbf0c051a4cfe5f5f8cfc6f61ec061de1",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-4",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "1b5bfc95b43eb12ec1ff037aa0564c67a0487553563451c2f6efd0ad86ba0e02",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-4",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "3760d9093a43982b5842dc77448bcdfdf058c74fc2de264cc092298af136f445",
+      "bytes": 413
+    },
+    {
+      "id": "holdout-pair_json-4",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "45c481c08927cfbe3b18a817ad5bf1bf14bb4f93534411818ab3cf9405b188a8",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-4",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "01d60973095eb154c241e63a882e26aef5156cb775ace5c17d4d152701df7323",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-4",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "a55a106d22ae5657eea7da6d332b937916ee97a6d6513bf928efe5cd482d8329",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-4",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "37335adc9562a78166f7e73d052961bba4c2115c732f17492c93625098837da6",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-4",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "b1b1556c79f3e7520d6634c995f0518b807e1dde847ff5782bd79fb217e73522",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-4",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-4",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "7167cd0930b7bbe4ca536d03a2843af23c13d09d2c6e928a3dd19ae33eee4070",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-4",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "b877c912b5ea1ba99a004fce5188ffdf1319cc76009c951b10cac6becb3e70f4",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-4",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "439c051d4bd6d9a7434a11c52f1ba171a336af0f6f79dcb94330cc838c7aa381",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-4",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "5883fd81a880e97ee8abe3954359df5820ac786e0c18c1ef530177e866798eee",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-4",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-4",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-4",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-4",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-4",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "3893d60ace05ebcb2e8e7819005733dd2925522954d3e9034a6b6819a89ba5a1",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-5",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "42bc73c62e347f346082671e5ee41b614376f869adb45b82bfa4e43e63f0afd0",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-5",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "07c549558d66687c70bf7fb173b949df4e95219e0c78e554040ab32e342ff3fa",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-5",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "1f34899a0c5aad3ce84265c8376b7b571ffdfea4379391410f90bbe907166e19",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-5",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "3c1363c7cb1a51dd14c32724556dbd32e0872841c8f1208baa9edfdd27b274e8",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-5",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "4f32da2b7f2cc2e06db4fff82b0c641299445f3eead90113a2862dad8c44b413",
+      "bytes": 440
+    },
+    {
+      "id": "holdout-pair_json-5",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "561bf4a93a245e62546892d8f62517c8316f0430531e5a3bac7a3356c5e2d0d2",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-5",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "131d0c13d6cf3acaf459497639bd73a882f72113cf9b754a25ad812d68814539",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-5",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "f515290a2a97e880c61db63f33998cd656528e2c88e0c73b2d0780cd58ee670b",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-5",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "04818a71c04d902fe45aa2fac9ddd6e033f2fe35f9dd8cbab9356cb0014c1fac",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-5",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "08552833b2d54af4b85b4a8cbe307d23dcc18771ec9eaa542d97fd751fa485c6",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-5",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-5",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "908fa33249275b48602448ae5a02d8df11eed295f9137e4939ef8ac5fe889b3b",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-5",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "ac0a7bae35ef04d3b52dd036a210a47cb649129d82dee6bda7f50f851f9a2101",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-5",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a9c228684f65db68ae586e07b465de4188096ab8509eac94a684e6bae06ed326",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-5",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "afaf726f465a410165a235e236ed9305fe043a79bbacd7b8321a9181fa9e1aad",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-5",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-5",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-5",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-5",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-5",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "bc5400c53975b658b82ad9bfeb0081f4f69ecee712680ae77bcc27514bbb1355",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-6",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "2a29a19f5cd38b3e6d3c087ec583d5f697d24f2c677834a73b095398e11310df",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-6",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "0c9eb7c2aa25e2109448af9a7aa3f69451f41fc6096a6e3b6caf6b94f04ac9ad",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-6",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "245bc5742e63bf995c314fddbc9b74a17a2e7e410be3b83ad945e4d952991787",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-6",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "588f9b9443917b4f4ea1a6ecab3e855544fa1406351ac0da4ba25550798eef48",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-6",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "09f3a4ea40e74499cd69e8a773b21ec2b93eb7e855d64140b1e83b786757256e",
+      "bytes": 308
+    },
+    {
+      "id": "holdout-pair_json-6",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "28431584463037ae400b8cac5086005d970f3ac1466bac5923a2b32f8475f8c7",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-6",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "334ce96a8f3d7f6c579083231298243c6735036323c1b04a642c095c5255fc37",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-6",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "007a84bd7aba911eb973da508b26a2dce60066c645ad061ed63540cd07c2acf0",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-6",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "10a4a6ab1cd98dd0bda003c6a4956c95db875ec24cc9076b8f408785b640637e",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-6",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "fbffd796712339d584d3f95501e09269b28c4fdbf7cc7abbd2f3f143c6a189c3",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-6",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-6",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a463dcd1e9ffe87dfe53194572805f0412ea5215bf13d962afa96be68ca34aed",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-6",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "fe002d9546e998b169efdf4d7f29629e9d3c72269e272c28a04c8ae00b4d4e45",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-6",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "0b81889d5d9c8e71a02be1e98442ffb6024d32ccfc86c413630db96f5e6d995b",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-6",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "02f6d338afc43f2496863437bcb9514f291c6574c556f14edf96673fe1742638",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-6",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-6",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-6",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-6",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-6",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "ce9f3f1ac386ef297b05ee60da05b04f8f0312812f6ff8c73c5a59cf2fc470d2",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-7",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "a7e452b404484c5185a77cf281e453686f7a7e83d2d4c5f4b749193720efab88",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-7",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "7b43e710195772749782995ed67ec9018cd38b015c0c737a63193d88f535295e",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-7",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "c3c82d84d93813816c6f94babe7942ec4ce87ad1865e2e133f437832fc577667",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-7",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "a12952ddaef7cab638359998bbeff8a7ee828a0748dc003083e550f64c1be284",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-7",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "3c557d55976a8ba572871e9cc9614c45f30be5fc9d1f92c810157afaea1b8735",
+      "bytes": 334
+    },
+    {
+      "id": "holdout-pair_json-7",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "5e55637a531049e20bf27e8ea8bc7e38f70692ea678b0cc69d8f23ac03538532",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-7",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "97a080e764f8454ee562c3cf62c8d119b6948410596ba5ace431fb6858b36c27",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-7",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "df489cfd10b6963b7547ad0f8ff410275f1e07928bdd9397b964f62a01b200be",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-7",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "1b12c32fbc5dac4fa97ce65cea621d854139920e932829ad2b5d64aaec225f4f",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-7",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "b16adfbfc07d5a4ca2a00d10e9505ac15bcfc1a6e21c24cfe7c2dc1191201777",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-7",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-7",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "cb8dc0cd5d5796e4c6cc2d55dcc27a9b05cd0d1f44581d56fd16b6b52562c3c0",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-7",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "3048bbbbb0685965cfe4826499d356b1ad361eb84f3034525cfe694c66b4a414",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-7",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "b015ffa150442fc588a53afec0c1db8d3b0787b613c3a5ad20086fa62c9b085e",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-7",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "9a4a810d41749bb45ccd90bf833579c3c9b9157549ac73281b0f6edc4b48357f",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-7",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-7",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-7",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-7",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-7",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "612cdc40d788559cb70141732a8af46285389128e4179ed7f9e875c059705658",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-8",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "549f61414fedac1046d88ddbd3802a4cce38a4bb2b1d9fc75de77b45e2881c85",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-8",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "61ad67d31970b0690a2b69a11d28216e52f3777b9595b19694345c53ec9fbbea",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-8",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "6c8843adbf3be6bb60e1c771190d7ec6e0384511de2f996635fe5d04fa1181bb",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-8",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "5ca653b57dd865c70bf4d42e4a3adf7b28c3dc7eee5b63f2025014627024d2a2",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-8",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "8d6c0ce1068bcbbdd3262a49c41f8393fd6f8cd170999f65887bde8c5ca5099f",
+      "bytes": 360
+    },
+    {
+      "id": "holdout-pair_json-8",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "41a3bb8533d3820e74c5081f5b774354cf61dee9b48616f4307bfaf4a492ba42",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-8",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "7c4e1e0a3521fafc20f15464a361bba5dc9816900466126676a3b84f718eb6f5",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-8",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "9ef0fa45073aa92482d210694275ef49f7830e147663375f0deed37cfa84d894",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-8",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "e4117fe7a41106079cfcaf9ddff458cd7ca3d5709bc03264128f28c9c8d8ffbf",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-8",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "bdfb60d819154f71004ce916186a4c0f344964a8fab18dcd2f1cb42044effaca",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-8",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-8",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "bf410cb7533b1e7e2fbd4f00cbf030f94fc5c82a0c33b8e8d2f7b7ed4891f206",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-8",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "ff03af63d3ff602d9609c7eb1cc7df09f5efc42152eafdd46879dc364d4a891e",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-8",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "920be0163b690d88044cb3f8613b7ac6ec77fd0d21366eab7f74373c0ae975c2",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-8",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "65004b1ad669c86de381ca65a0055e5e690acd4a06291d75034c0971162e9037",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-8",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-8",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-8",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-8",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-8",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "0f2a35e613e3bab4212df965b15996f6edb490a5b4fc810decbf70b4c6242974",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-9",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "cbc43221e12fa52dccaa15ac30ad01e90813a42583cef43eaf176faae021ace7",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-9",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "b7845c839a2a0c16c492c6456869db8b0ffb4057d52871cd1eeb48be0baf7312",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-9",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "20fe696131f0e4362d1605eb4f3e98def4f0af50e6036261c03c51132ec31ad0",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-9",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "c2e725c219860d229e8c1b76669cdfe43dd92658fa2162bc1f835b34fb0d506c",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-9",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "30f8f12c33b612034f5e15e11131a0359e6215a643f5b4cdb41570514103289b",
+      "bytes": 386
+    },
+    {
+      "id": "holdout-pair_json-9",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "8675f9fd118074bc365e6c658695a3719a0157ce2786f442499531b2ea168eae",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-9",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "76f8a893bf4df886f7a02462eaba3e54765aa3999e6c94d17f1c5f971a7f53a7",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-9",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "d268d28ed7fc6f24f2c88cd505e90e3b50531ae4a4c538765cf826f3a4ec3d7f",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-9",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "5810d31727c484dcdb989395661e71fcc2d7acc569214a54f26b3aaf0d1ff28e",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-9",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "ce1304f28d2ce34bd2a958fee51984b14d1909a55c13171c4b07681ab96ebcec",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-9",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-9",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "1bebf92dc838ed7a9f18955dbe96acd645cd8e34564fc7cb1c2ef41ebf580e16",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-9",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "348388de856a1f1997d342fcbedb0238c33d6e69194d2375b87401a55515dc9c",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-9",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "23b5a73a5d96c985b12aa457bedf949605476246c68220cd8d3b24f357234fc0",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-9",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "92063ceee0c6ff4353d9de52c4801bd02461ddf0297de9d149517ca65c5db4f5",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-9",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-9",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-9",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-9",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-9",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "3c88f87fc8e17e629cc5f652cce04f99833a1ae2743d24bf90fe725010fe3838",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-10",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "bd89452a7c046f2e9c08cbb23c88c59df072441327fec1ea8e7926e0ec3839b8",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-10",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "228f0a1902bcc4114f0e25067345e5dba3623d8a6ceb77e8f07d572a65f11b27",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-10",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "372c955e85c59f5ffa6bdd533cfc2aee8973fb130259f8cff4ee8e3f1052611d",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-10",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "e3a732f8faec370c093ef86abfc1de939fbe046a89a8afd056c90fba343b8b6c",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-10",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "c8e7d9c48f1d553d01686efb73505faad20d6e678d35e087d452510152ecbbde",
+      "bytes": 413
+    },
+    {
+      "id": "holdout-pair_json-10",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "ee5154a0c077403229610eb66affe7f7eeb73351540e3ffa08544f9432c8ca74",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-10",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "8f66eb40c3506192414ed4c66baabe3090cf62248a63670723f8b241f37d33e4",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-10",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "5541793770d1ab8d84ffa608cd88bb66c8d1b74bd48bf4d825bd1903b731484f",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-10",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "9450f043adc2053bd65253af59a5c3da324234cd7334b2ae3b53abf16807c3e8",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-10",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "42c76684a4619c2089c138f9566fa2cd5ad9fdb9bafd7cb4dc220d2052771887",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-10",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-10",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "07f51cbcb0c2cec706e9bfacd1b707d927498157cd7c6580377398587385bbc7",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-10",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "322e0f42afbe3a35d30302bc17a41dd7352cdad35905b732f985547d95c74f78",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-10",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "bebbdfd5e0a3a912252a4e473cd055dc4d2c73bbe96c5e8fa488b385efb6a815",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-10",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "606f9e6d2c962dcffb8ec50f491790bff4b94c3fe6375d8af98191c4e4b797d5",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-10",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-10",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-10",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-10",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-10",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "1de2e8b58329273fae8c04cd9a4620142ec2ac323f9607a5131e1c465c612809",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-11",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "30873c4568c9a4ab3f77264c692c765da84d97b1277cf4d8379c1c9f2e87e5a6",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-11",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "f6d56774dac00b3a83454f6f8f9b8b9ecf84c83cae56779a40884f249eecb4f1",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-11",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "6d30522c6410e30f716a5d3374da7dd3e9ae45a4552e6682b5d4966aef3bffc2",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-11",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "0697aa39dcbb8660b5c916a9c8fe9a369eb5fde522eb10e76fcc14d7de87bfbc",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-11",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "1480f612e4e544a358d29603cb022af70e0a557937c6f9e08ac2d265ebd8942d",
+      "bytes": 440
+    },
+    {
+      "id": "holdout-pair_json-11",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "5dab796a3628794103e7a519ea1dbf35218bc77e73fe72c40d0ac75f13fc5906",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-11",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "6fda1817b921739bb88dcf7ace179d3207d9b2a8980d8a198feebaeac73df031",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-11",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "02c3b2c7567f688041667c442847b35db0ee29d3b3db340ea7d08c9b46830db2",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-11",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "1dd6372932da9f1508ff4e8109aa402bf7487d0c4f9d111585d11b2b093e9342",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-11",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "704c6ccb966fe7e3cc5dc85dda2fb14ca4625d54c1996e13d47ec11753085de6",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-11",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-11",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "45192116f5c911f4a948b46a06526c9fd191a8335125ad4d6573eb09723b1374",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-11",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "b4a8f0f53b4e92de91496e36568cdee57a0ecdcdc247cd3ff08a3aa9c2aa78d6",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-11",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f2073f59783d7093a83c7536abd903eefc6195d05037dd8eeb8afea3bf700a41",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-11",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "ff681e38b0b7a1e7e11c2aa80e78abadc4efdda99a4ac13b3860e0637641fe00",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-11",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-11",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-11",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-11",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-11",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "86607fdd09ea084288802599f04231e448737009012e67c05f00cf5191574e6b",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-12",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "289167b12c2fa4dcb1041265c9ffed205021f51d573dbe8ed9f5fa15afb86477",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-12",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "c2d82e55a0dbefbc544730441a2b3588594a0596d9587682f7ce5e2f9cf89e02",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-12",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "7c8bcf668daab339f3f1c685d44d93f510a4d59db65b48f2f14bd3f8155b98ab",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-12",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "23a6cda7051af1ca6170c55e4389707450bed21b1c85bab649dfc3feb56e86f3",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-12",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "cd213274fc46e71d320ebccca9e9e77db4a63e189612a6393d1099359e5c3de0",
+      "bytes": 308
+    },
+    {
+      "id": "holdout-pair_json-12",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "459959aa144a7352a2a719116b5d58719d3712b252cb927f5c7038a11c589c3a",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-12",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "ad4607c1acc2211bd1c460ccbca036b2b694ab8c86bbe415c9d2b5eb006f5601",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-12",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "ee9e93f20b013bb661126b9a8a62bac97e7e9c60ccd41a90fbfcfe71b049e4db",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-12",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "16364ee9babd263eec22045548bbffd2acbcec772ca0beccc59870987000c5e0",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-12",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "26d5d52b59022706346f19c712530d63a5b2da461be6aa87b104a4e888ab10eb",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-12",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-12",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "88ec7b45699cb51df0e6c8d629a90e46806c472cd737686d6b81b0fb44e3d10f",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-12",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "fd49c33d93846bf15da97877fe22963ce6814335b86e78a776dba71756bcf629",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-12",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "d8b7a4a9f3898ea7210296fc8971ec8398373b5bd6d0f02d559677ef716f2717",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-12",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "4c66dee7022d83dd535168ed4e30bf5a960af4fd19905c76e49065cd853b1bad",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-12",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-12",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-12",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-12",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-12",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "ed6f0ef8371118c92157f1dc1c28d836ddcf12377388cf8a3bbd199e61fb5f59",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-13",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "37bb74567ff2ec3a1999a3cd4a892de877895336ee07676ead44d1c6108e945d",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-13",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "895268a9435fd6ebf3e970deef346f37adb00605a7937071f3c60be92ee27200",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-13",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "4ab3023005db226b9f08dc8e3cd4df006e6fdd480baa51a4c29dd2c15d12cc14",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-13",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "18b4989b8698fcd4471450209704123066e7ccca83de10df4351ccfd61a5fe8f",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-13",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "c09db3e9fb1308b73eeba7b0da2ef3c6532b29c6c236621ec92d25e63591ec81",
+      "bytes": 334
+    },
+    {
+      "id": "holdout-pair_json-13",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "66014afec2298f40d423e50d2cb3c6531dd9b9ea1559072726544b4de5fec0ba",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-13",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "5c4b5f6292f604628d835935e6b49c57f41db1380b4ffa511101c3c6d91a69df",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-13",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "7052f2fdb6a0396d89b500c12a32965831abb9a7c06a7ae5586993864c17189f",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-13",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "0d77706b8a9b9c27bf3fb5b9299ad6a5bca7e0b148ddee90c1daa9c343190ae9",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-13",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "45c8318442467138abec0867ece275132df7c328362c3c236ca9e9f3cd023d46",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-13",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-13",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "bd404d6061d149b59147f359bfcf502e6937785d7c1e5a6ef5390140afe5b875",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-13",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "d28e66858a3bf5b9beac0bdb5d20b573b8844c3981ae0d1cbe9ef128729d876e",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-13",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "02ad445f5dfa9a3de528db6a89dab67ad2b09b90b17cd3964256d997ed911642",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-13",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "6c6995d950fb811b82c9016c981b09e9bd8eadca6680d0fecc56a4f59cd424aa",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-13",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-13",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-13",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-13",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-13",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "31fcc8549f2c8a35d1c202733b6be496f944012d4776709bafb63a8cd7a18071",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-14",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "f95406e9c44d28f4499e5b810bfc729cfcb21d36773d6b5b8e631bfa677894f1",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-14",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "6d7df2c558e569f4d7a15237eb0a34bb7b9cc99693e328c10446d16857a511c5",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-14",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "96fe3602c16cd042326cd0a65a4c1d5270935755abf45cfed1881571d33cadb5",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-14",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "dc97056075213909c46a54b8befe959e859ac7ef2869987960806cadab93b9ef",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-14",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "32901bfeba8c4b85c9c31ffff4cf81c39aaf088475788343082b817ffdd7f3fd",
+      "bytes": 360
+    },
+    {
+      "id": "holdout-pair_json-14",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "dbc7356c991e28bb7d3ce5132dac5ad1148b0c1d3a8dff8320d46e55a8613ca2",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-14",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "495e1324a40d402dfe6d5d6c508b680e204537facf047e14c430b3d60d74aa60",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-14",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "7590d1d1df80881136c08f580d70bca89efeb5ef353321551abaa09aca6124e7",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-14",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "44c6a3b18093c48ef2a06c5698ed1a0252eff978c342a344e0537a004335c480",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-14",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "65f4a36dc16566df37b098ee795669522a23f15deff53b0293267be833e899df",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-14",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-14",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "c9d8095da88dde946ea32152a1db6d5571b4403983af137ad4575187586695f6",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-14",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "0eacec1f6f258bf556a061adaa4ebedb3002710ca0857ef1de9e227f2fd55849",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-14",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a0c2793169fe24fb03242f26c662d828995c28bc347fa0fd8d1e6379bbf5fb5d",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-14",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "2d6f8fcc08a470cb7e8b41505b5a7559b6e6c2ee85d252348111c123510cd4de",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-14",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-14",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-14",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-14",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-14",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "ad45b0360dc7c463a003db7f1f9d8966f1ab1514242d69e64510593693bd505f",
+      "bytes": 70
+    },
+    {
+      "id": "holdout-api_json-15",
+      "family": "api_json",
+      "split": "holdout",
+      "expected": [
+        "api_token"
+      ],
+      "text_sha256": "79492242bce9cd033c349582e9f20990f4f71436f462a111bb5bc38168fa5e68",
+      "bytes": 55
+    },
+    {
+      "id": "holdout-oauth_multiline-15",
+      "family": "oauth_multiline",
+      "split": "holdout",
+      "expected": [
+        "oauth_client_secret"
+      ],
+      "text_sha256": "e4a6a423ef6f1c3c6b2032f34cc600464fbd29b66aa0cf73dc95ada29e92e943",
+      "bytes": 68
+    },
+    {
+      "id": "holdout-db_quoted-15",
+      "family": "db_quoted",
+      "split": "holdout",
+      "expected": [
+        "database_password"
+      ],
+      "text_sha256": "5c541416634bab15cfc2b36d1dbb5a885ae96eb166772c902164a102f9be0983",
+      "bytes": 63
+    },
+    {
+      "id": "holdout-mysql_escaped-15",
+      "family": "mysql_escaped",
+      "split": "holdout",
+      "expected": [
+        "database_uri"
+      ],
+      "text_sha256": "56732456df62c227c3843228cb517361265e35208540ee9d5b9ab969b42162ad",
+      "bytes": 84
+    },
+    {
+      "id": "holdout-pair_section-15",
+      "family": "pair_section",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "2ce708ef105fa4448944bda68de9f646f7dd4adb38918de950ccec6a93df7563",
+      "bytes": 386
+    },
+    {
+      "id": "holdout-pair_json-15",
+      "family": "pair_json",
+      "split": "holdout",
+      "expected": [
+        "cloud_key_pair"
+      ],
+      "text_sha256": "367c868297be8972e7d8e0f56dc9542c2996af3ee336f03f950c885ec903b5fa",
+      "bytes": 129
+    },
+    {
+      "id": "holdout-standalone_secret-15",
+      "family": "standalone_secret",
+      "split": "holdout",
+      "expected": [
+        "cloud_secret_key"
+      ],
+      "text_sha256": "3be335b1cc440a53358b9edc88e6ac24d17967d5e560f9a59710447d1765444d",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-private_pem-15",
+      "family": "private_pem",
+      "split": "holdout",
+      "expected": [
+        "ssh_private_key"
+      ],
+      "text_sha256": "b42f35d8f03e271a953da051571555a2bfbf3ecc00570e8cf73ca4b0528159df",
+      "bytes": 196
+    },
+    {
+      "id": "holdout-entropy_private-15",
+      "family": "entropy_private",
+      "split": "holdout",
+      "expected": [
+        "high_entropy"
+      ],
+      "text_sha256": "e5ad36034f4a4f9954a6247f21df1ea62787306eb7779a0740b15e2fa72ba9b4",
+      "bytes": 65
+    },
+    {
+      "id": "holdout-multiple_tokens-15",
+      "family": "multiple_tokens",
+      "split": "holdout",
+      "expected": [
+        "api_token",
+        "oauth_client_secret"
+      ],
+      "text_sha256": "542125a3cdf0b128c5c5fd21ea0c1950cea25d56802966d3aedf06d7088130b9",
+      "bytes": 103
+    },
+    {
+      "id": "holdout-pem_guide-15",
+      "family": "pem_guide",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "a2031c1d95e6142998a6f32c4c833b40f0c4c184675c1bc31632ba767323c52c",
+      "bytes": 64
+    },
+    {
+      "id": "holdout-release_identifier-15",
+      "family": "release_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "64fc99353ae7f480f0342fc8e96e147b6301d42313154b8099de6d921c60c521",
+      "bytes": 61
+    },
+    {
+      "id": "holdout-artifact_sha-15",
+      "family": "artifact_sha",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "43cffeae53d693a0203ee7dc0feea3abc488a9d1f7f381caf344019c4a587b04",
+      "bytes": 144
+    },
+    {
+      "id": "holdout-opaque_identifier-15",
+      "family": "opaque_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "44bddda677619b57e3b2042fbd781576b9e6b48e923f1f4a903a8b3998ac8419",
+      "bytes": 62
+    },
+    {
+      "id": "holdout-base64_document-15",
+      "family": "base64_document",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "582489399e347689eee4ba0c2765c74c257af55b98645b04269b0bfb2dccba35",
+      "bytes": 146
+    },
+    {
+      "id": "holdout-oauth_placeholder-15",
+      "family": "oauth_placeholder",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "69dd748ea83a22c5bfe474fc4112f2acc153561d45f37cf05c544a8b2d3efd17",
+      "bytes": 40
+    },
+    {
+      "id": "holdout-ordinary_comments-15",
+      "family": "ordinary_comments",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "532d12030ad1c46ec9cec99236e2c3444affe6c76e3e21a6013b261bab3b998a",
+      "bytes": 52
+    },
+    {
+      "id": "holdout-template_token-15",
+      "family": "template_token",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "f35fab58199a68458f207a52375da652a89259b59c8f2e3dcca94032e772b678",
+      "bytes": 32
+    },
+    {
+      "id": "holdout-truncated_private-15",
+      "family": "truncated_private",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "401dd249db0fa563921d7828045a69b5c14196887d4f70f4fad9c85dcba271d2",
+      "bytes": 46
+    },
+    {
+      "id": "holdout-cdn_identifier-15",
+      "family": "cdn_identifier",
+      "split": "holdout",
+      "expected": [],
+      "text_sha256": "009c57b2d6d42358c92ca7297e9fbf004be96983dbb145c2ae6ec6c3367754a3",
+      "bytes": 70
+    }
+  ],
+  "generator_sha256": "7ee25892ba7e82393acb0140688c30ebb6a3ac9fa294761d10356636525c6b4e"
+}
